@@ -1,0 +1,44 @@
+@prefix : <http://purl.org/np/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix gdpr: <http://purl.org/adaptcentre/resources/GDPRtEXT#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+	:assertion a nt:AssertionTemplate ;
+		rdfs:label "Commenting on a part of GDPR" ;
+		nt:hasStatement :st1 .
+	:st1 rdf:type rdf:Statement ;
+		rdf:subject :gdpr-article ;
+		rdf:predicate rdfs:comment ;
+		rdf:object :comment ;
+		nt:statementOrder "1"^^xsd:integer .
+    rdfs:comment rdfs:label "has my comment" .
+	:gdpr-article a nt:RestrictedChoicePlaceholder ;
+		nt:possibleValuesFrom <http://purl.org/np/RAJGUpLZK5MVr3lYXL12JXuuQnf-1NZncLipq7AD5Io7k> ;
+		nt:hasPrefixLabel "GDPR's" .
+    dct:description rdfs:label "has the comment text" .
+	:comment a nt:LiteralPlaceholder .
+}
+
+:provenance {
+	:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+:pubinfo {
+	: dct:created "2020-05-12T12:45:19.381+02:00"^^xsd:dateTime ;
+		dct:creator orcid:0000-0002-1267-0234 .
+}

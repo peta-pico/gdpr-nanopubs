@@ -1,0 +1,933 @@
+@prefix : <http://purl.org/nanopub/temp/gdpr-labels-nanopub/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix gdpr: <http://purl.org/adaptcentre/resources/GDPRtEXT#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article1-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article1(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article1-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article1(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article1-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article1(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article10-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article10(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article11-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article11(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article11-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article11(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-5-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(5)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-5-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(5)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-5-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(5)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-5-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(5)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-5-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(5)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-5-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(5)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article16-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article16(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-3-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(3)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-3-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(3)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article19-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article19(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article20(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article20(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article20(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article20(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article20(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article21(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article21(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article21(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article21(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article21(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article21(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article24-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article24(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article24-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article24(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article24-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article24(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article25-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article25(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article25-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article25(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article25-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article25(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article26-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article26(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article26-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article26(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article26-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article26(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-10> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(10)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article29-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article29(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article3-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article3(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article3-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article3(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article3-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article3(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article3-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article3(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article31-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article31(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-3-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(3)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-10> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(10)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-11> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(11)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-7-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(7)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-7-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(7)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-7-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(7)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-7-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(7)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article38(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article38(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article38(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article38(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article38(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article38(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-10> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(10)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-11> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(11)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-12> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(12)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-13> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(13)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-14> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(14)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-15> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(15)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-16-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(16)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-16-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(16)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-17> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(17)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-18> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(18)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-19> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(19)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-20> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(20)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-21> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(21)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-22-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(22)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-22-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(22)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-22-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(22)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-23-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(23)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-23-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(23)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-24> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(24)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-25> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(25)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-26> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(26)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-10> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(10)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-11> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(11)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2-k> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)(k)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article42(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article44-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article44(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-k> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(k)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-l> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(l)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-m> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(m)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2-n> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)(n)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article48-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article48(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article50-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article50(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article50-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article50(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article50-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article50(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article50-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article50(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article51-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article51(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article51-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article51(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article51-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article51(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article51-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article51(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article52(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article52(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article52(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article52(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article52(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article52(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-1-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(1)(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-1-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(1)(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-1-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(1)(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-1-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(1)(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article55-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article55(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article55-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article55(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article55-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article55(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article56(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article56(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article56(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article56(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article56(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article56(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-k> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(k)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-l> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(l)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-m> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(m)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-n> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(n)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-o> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(o)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-p> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(p)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-q> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(q)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-r> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(r)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-s> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(s)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-t> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(t)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-u> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(u)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1-v> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)(v)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article59-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article59(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-3-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(3)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-3-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(3)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-4-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(4)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-4-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(4)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-4-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(4)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-4-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(4)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-4-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(4)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-10> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(10)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-11> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(11)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-12> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(12)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article60(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-4-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(4)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-4-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(4)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article62(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article63-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article63(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-5-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(5)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-5-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(5)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article66-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article66(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article66-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article66(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article66-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article66(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article66-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article66(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article67-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article67(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article67-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article67(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article68(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article68(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article68(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article68(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article68(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article68(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article69-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article69(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article69-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article69(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article7-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article7(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article7-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article7(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article7-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article7(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article7-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article7(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-k> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(k)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-l> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(l)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-m> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(m)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-n> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(n)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-o> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(o)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-p> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(p)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-q> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(q)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-r> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(r)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-s> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(s)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-t> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(t)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-u> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(u)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-v> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(v)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-w> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(w)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-x> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(x)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1-y> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)(y)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article71-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article71(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article71-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article71(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article72-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article72(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article72-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article72(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article73-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article73(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article73-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article73(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article74-1-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article74(1)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article74-1-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article74(1)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article74-1-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article74(1)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article74-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article74(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article76-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article76(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article76-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article76(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article77-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article77(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article77-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article77(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article78-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article78(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article78-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article78(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article78-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article78(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article78-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article78(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article79-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article79(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article79-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article79(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article8-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article8(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article8-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article8(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article8-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article8(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article80-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article80(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article80-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article80(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article81-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article81(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article81-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article81(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article81-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article81(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article82(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article82(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article82(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article82(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article82(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article82(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2-k> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)(k)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-4-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(4)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-4-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(4)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-4-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(4)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-5-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(5)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-5-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(5)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-5-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(5)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-5-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(5)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-5-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(5)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-8> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(8)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-9> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(9)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article84-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article84(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article84-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article84(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article85-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article85(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article85-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article85(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article85-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article85(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article86-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article86(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article87-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article87(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article88-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article88(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article88-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article88(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article88-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article88(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article89-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article89(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article89-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article89(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article89-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article89(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article89-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article89(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-c> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(c)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-d> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(d)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-e> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(e)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-f> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(f)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-g> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(g)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-h> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(h)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-i> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(i)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2-j> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)(j)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article90-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article90(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article90-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article90(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article91-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article91(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article91-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article91(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article92-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article92(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article92-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article92(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article92-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article92(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article92-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article92(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article92-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article92(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article93-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article93(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article93-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article93(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article93-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article93(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article94-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article94(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article94-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article94(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article95-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article95(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article96-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article96(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-2-a> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(2)(a)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-2-b> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(2)(b)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article98-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article98(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article99-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article99(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article99-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article99(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article10> <http://www.w3.org/2000/01/rdf-schema#label> "Article 10"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article44> <http://www.w3.org/2000/01/rdf-schema#label> "Article 44"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article48> <http://www.w3.org/2000/01/rdf-schema#label> "Article 48"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article86> <http://www.w3.org/2000/01/rdf-schema#label> "Article 86"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article87> <http://www.w3.org/2000/01/rdf-schema#label> "Article 87"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article95> <http://www.w3.org/2000/01/rdf-schema#label> "Article 95"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article96> <http://www.w3.org/2000/01/rdf-schema#label> "Article 96"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article98> <http://www.w3.org/2000/01/rdf-schema#label> "Article 98"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article12(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article16> <http://www.w3.org/2000/01/rdf-schema#label> "Article 16"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article19> <http://www.w3.org/2000/01/rdf-schema#label> "Article 19"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article20(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article27(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article29> <http://www.w3.org/2000/01/rdf-schema#label> "Article 29"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article3-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article3(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article31> <http://www.w3.org/2000/01/rdf-schema#label> "Article 31"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-16> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(16)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-23> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(23)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article59> <http://www.w3.org/2000/01/rdf-schema#label> "Article 59"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article61(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article63> <http://www.w3.org/2000/01/rdf-schema#label> "Article 63"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article97(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article11> <http://www.w3.org/2000/01/rdf-schema#label> "Article 11"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article77> <http://www.w3.org/2000/01/rdf-schema#label> "Article 77"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article79> <http://www.w3.org/2000/01/rdf-schema#label> "Article 79"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article80> <http://www.w3.org/2000/01/rdf-schema#label> "Article 80"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article84> <http://www.w3.org/2000/01/rdf-schema#label> "Article 84"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article90> <http://www.w3.org/2000/01/rdf-schema#label> "Article 90"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article91> <http://www.w3.org/2000/01/rdf-schema#label> "Article 91"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article94> <http://www.w3.org/2000/01/rdf-schema#label> "Article 94"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article99> <http://www.w3.org/2000/01/rdf-schema#label> "Article 99"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article22(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article34(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article37(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4-22> <http://www.w3.org/2000/01/rdf-schema#label> "Article4(22)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article45(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article65(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article67> <http://www.w3.org/2000/01/rdf-schema#label> "Article 67"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article69> <http://www.w3.org/2000/01/rdf-schema#label> "Article 69"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article71> <http://www.w3.org/2000/01/rdf-schema#label> "Article 71"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article72> <http://www.w3.org/2000/01/rdf-schema#label> "Article 72"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article73> <http://www.w3.org/2000/01/rdf-schema#label> "Article 73"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article74-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article74(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article76> <http://www.w3.org/2000/01/rdf-schema#label> "Article 76"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article1> <http://www.w3.org/2000/01/rdf-schema#label> "Article 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article8> <http://www.w3.org/2000/01/rdf-schema#label> "Article 8"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article81> <http://www.w3.org/2000/01/rdf-schema#label> "Article 81"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article85> <http://www.w3.org/2000/01/rdf-schema#label> "Article 85"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article88> <http://www.w3.org/2000/01/rdf-schema#label> "Article 88"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article93> <http://www.w3.org/2000/01/rdf-schema#label> "Article 93"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article18(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article2(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article24> <http://www.w3.org/2000/01/rdf-schema#label> "Article 24"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article25> <http://www.w3.org/2000/01/rdf-schema#label> "Article 25"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article26> <http://www.w3.org/2000/01/rdf-schema#label> "Article 26"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article32(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article33(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35-7> <http://www.w3.org/2000/01/rdf-schema#label> "Article35(7)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article41(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article50-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article50(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article53(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article55> <http://www.w3.org/2000/01/rdf-schema#label> "Article 55"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article7> <http://www.w3.org/2000/01/rdf-schema#label> "Article 7"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article78> <http://www.w3.org/2000/01/rdf-schema#label> "Article 78"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article89> <http://www.w3.org/2000/01/rdf-schema#label> "Article 89"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article39(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article43(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article51> <http://www.w3.org/2000/01/rdf-schema#label> "Article 51"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-4> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(4)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article66> <http://www.w3.org/2000/01/rdf-schema#label> "Article 66"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-5> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(5)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article3> <http://www.w3.org/2000/01/rdf-schema#label> "Article 3"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article50> <http://www.w3.org/2000/01/rdf-schema#label> "Article 50"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article92> <http://www.w3.org/2000/01/rdf-schema#label> "Article 92"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article13(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article17(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article36(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article46(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article5(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article54(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article6(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article64(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article74> <http://www.w3.org/2000/01/rdf-schema#label> "Article 74"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article82> <http://www.w3.org/2000/01/rdf-schema#label> "Article 82"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article14(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article20> <http://www.w3.org/2000/01/rdf-schema#label> "Article 20"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article21> <http://www.w3.org/2000/01/rdf-schema#label> "Article 21"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article30(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article38> <http://www.w3.org/2000/01/rdf-schema#label> "Article 38"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article49(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article52> <http://www.w3.org/2000/01/rdf-schema#label> "Article 52"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article56> <http://www.w3.org/2000/01/rdf-schema#label> "Article 56"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article68> <http://www.w3.org/2000/01/rdf-schema#label> "Article 68"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75-6> <http://www.w3.org/2000/01/rdf-schema#label> "Article75(6)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article97> <http://www.w3.org/2000/01/rdf-schema#label> "Article 97"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article15(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article18> <http://www.w3.org/2000/01/rdf-schema#label> "Article 18"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article22> <http://www.w3.org/2000/01/rdf-schema#label> "Article 22"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article27> <http://www.w3.org/2000/01/rdf-schema#label> "Article 27"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article28(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article34> <http://www.w3.org/2000/01/rdf-schema#label> "Article 34"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article39> <http://www.w3.org/2000/01/rdf-schema#label> "Article 39"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article62> <http://www.w3.org/2000/01/rdf-schema#label> "Article 62"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article2> <http://www.w3.org/2000/01/rdf-schema#label> "Article 2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article5> <http://www.w3.org/2000/01/rdf-schema#label> "Article 5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article32> <http://www.w3.org/2000/01/rdf-schema#label> "Article 32"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article42> <http://www.w3.org/2000/01/rdf-schema#label> "Article 42"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article53> <http://www.w3.org/2000/01/rdf-schema#label> "Article 53"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article54> <http://www.w3.org/2000/01/rdf-schema#label> "Article 54"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article23(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article33> <http://www.w3.org/2000/01/rdf-schema#label> "Article 33"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58-3> <http://www.w3.org/2000/01/rdf-schema#label> "Article58(3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article65> <http://www.w3.org/2000/01/rdf-schema#label> "Article 65"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article9(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterX> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter X"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article12> <http://www.w3.org/2000/01/rdf-schema#label> "Article 12"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article37> <http://www.w3.org/2000/01/rdf-schema#label> "Article 37"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article40(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article41> <http://www.w3.org/2000/01/rdf-schema#label> "Article 41"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article83(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIII-1> <http://www.w3.org/2000/01/rdf-schema#label> "Section 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article36> <http://www.w3.org/2000/01/rdf-schema#label> "Article 36"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article61> <http://www.w3.org/2000/01/rdf-schema#label> "Article 61"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article45> <http://www.w3.org/2000/01/rdf-schema#label> "Article 45"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article15> <http://www.w3.org/2000/01/rdf-schema#label> "Article 15"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article60> <http://www.w3.org/2000/01/rdf-schema#label> "Article 60"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article46> <http://www.w3.org/2000/01/rdf-schema#label> "Article 46"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article49> <http://www.w3.org/2000/01/rdf-schema#label> "Article 49"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47-2> <http://www.w3.org/2000/01/rdf-schema#label> "Article47(2)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article75> <http://www.w3.org/2000/01/rdf-schema#label> "Article 75"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article9> <http://www.w3.org/2000/01/rdf-schema#label> "Article 9"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article17> <http://www.w3.org/2000/01/rdf-schema#label> "Article 17"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIII-4> <http://www.w3.org/2000/01/rdf-schema#label> "Section 4"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article13> <http://www.w3.org/2000/01/rdf-schema#label> "Article 13"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article30> <http://www.w3.org/2000/01/rdf-schema#label> "Article 30"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article43> <http://www.w3.org/2000/01/rdf-schema#label> "Article 43"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article64> <http://www.w3.org/2000/01/rdf-schema#label> "Article 64"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article6> <http://www.w3.org/2000/01/rdf-schema#label> "Article 6"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article28> <http://www.w3.org/2000/01/rdf-schema#label> "Article 28"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article35> <http://www.w3.org/2000/01/rdf-schema#label> "Article 35"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterXI> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter XI"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article47> <http://www.w3.org/2000/01/rdf-schema#label> "Article 47"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article23> <http://www.w3.org/2000/01/rdf-schema#label> "Article 23"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIII-5> <http://www.w3.org/2000/01/rdf-schema#label> "Section 5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article57(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article40> <http://www.w3.org/2000/01/rdf-schema#label> "Article 40"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIX> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter IX"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70-1> <http://www.w3.org/2000/01/rdf-schema#label> "Article70(1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article14> <http://www.w3.org/2000/01/rdf-schema#label> "Article 14"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIV-4> <http://www.w3.org/2000/01/rdf-schema#label> "Section 4"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article57> <http://www.w3.org/2000/01/rdf-schema#label> "Article 57"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIV-2> <http://www.w3.org/2000/01/rdf-schema#label> "Section 2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article83> <http://www.w3.org/2000/01/rdf-schema#label> "Article 83"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article70> <http://www.w3.org/2000/01/rdf-schema#label> "Article 70"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVI-1> <http://www.w3.org/2000/01/rdf-schema#label> "Section 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIV-3> <http://www.w3.org/2000/01/rdf-schema#label> "Section 3"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article58> <http://www.w3.org/2000/01/rdf-schema#label> "Article 58"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVII-1> <http://www.w3.org/2000/01/rdf-schema#label> "Section 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#article4> <http://www.w3.org/2000/01/rdf-schema#label> "Article 4"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIII-3> <http://www.w3.org/2000/01/rdf-schema#label> "Section 3"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVII-2> <http://www.w3.org/2000/01/rdf-schema#label> "Section 2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterI> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter I"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterII> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter II"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIII-2> <http://www.w3.org/2000/01/rdf-schema#label> "Section 2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVIII> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter VIII"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIV-1> <http://www.w3.org/2000/01/rdf-schema#label> "Section 1"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIV-5> <http://www.w3.org/2000/01/rdf-schema#label> "Section 5"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterV> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter V"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVII-3> <http://www.w3.org/2000/01/rdf-schema#label> "Section 3"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVI-2> <http://www.w3.org/2000/01/rdf-schema#label> "Section 2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVI> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter VI"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIII> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter III"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterVII> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter VII"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/adaptcentre/resources/GDPRtEXT#chapterIV> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter IV"^^<http://www.w3.org/2001/XMLSchema#string> .
+}
+
+:provenance {
+	:assertion prov:wasDerivedFrom <https://zenodo.org/record/1146351/files/gdpr.ttl> ;
+		rdfs:seeAlso <https://doi.org/10.5281/zenodo.1146351> .
+}
+
+:pubinfo {
+	: dct:created "2020-05-12T11:54:17.590+02:00"^^xsd:dateTime ;
+		dct:creator orcid:0000-0002-1267-0234 ;
+		dct:license <https://creativecommons.org/licenses/by/4.0/> .
+}

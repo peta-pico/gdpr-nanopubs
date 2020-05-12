@@ -1,0 +1,31 @@
+@prefix : <http://purl.org/nanopub/temp/gdpr-labels-nanopub/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix gdpr: <http://purl.org/adaptcentre/resources/GDPRtEXT#> .
+
+:Head {
+	: np:hasAssertion :assertion ;
+		np:hasProvenance :provenance ;
+		np:hasPublicationInfo :pubinfo ;
+		a np:Nanopublication .
+}
+
+:assertion {
+
+}
+
+:provenance {
+	:assertion prov:wasDerivedFrom <https://zenodo.org/record/1146351/files/gdpr.ttl> ;
+		rdfs:seeAlso <https://doi.org/10.5281/zenodo.1146351> .
+}
+
+:pubinfo {
+	: dct:created "2020-05-12T11:54:17.590+02:00"^^xsd:dateTime ;
+		dct:creator orcid:0000-0002-1267-0234 ;
+		dct:license <https://creativecommons.org/licenses/by/4.0/> .
+}
