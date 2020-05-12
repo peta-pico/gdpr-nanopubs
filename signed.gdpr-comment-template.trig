@@ -1,0 +1,54 @@
+@prefix this: <http://purl.org/np/RAhs9SjXf1A_z4V2ckfv0O3hu6QqFSpHJAISxEfri2tmk> .
+@prefix sub: <http://purl.org/np/RAhs9SjXf1A_z4V2ckfv0O3hu6QqFSpHJAISxEfri2tmk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  dct:description rdfs:label "has the comment text" .
+  
+  sub:assertion a nt:AssertionTemplate;
+    rdfs:label "Commenting on a part of GDPR";
+    nt:hasStatement sub:st1 .
+  
+  sub:comment a nt:LiteralPlaceholder .
+  
+  sub:gdpr-article a nt:RestrictedChoicePlaceholder;
+    nt:hasPrefixLabel "GDPR's";
+    nt:possibleValuesFrom <http://purl.org/np/RAdmaRECvfkb2w_ZkL5WECfA7iNBV3yk2qAIQCP2uy038> .
+  
+  sub:st1 rdf:object sub:comment;
+    rdf:predicate rdfs:comment;
+    rdf:subject sub:gdpr-article;
+    a rdf:Statement;
+    nt:statementOrder 1 .
+  
+  rdfs:comment rdfs:label "has my comment" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "m7lBwU7elZAVyR6nETdU3CUYuS0rTopC4h9VnzZe1OL6oNBB60KljwIMEUX2IGndyEN5BmiMNqDv/y5ClFz476VB41ObXlG5ywGqwhJ64Sdu4wUr4oja9243cFi/6q2BckH2J1zlwL1gSrX6DRyd85YofSvo7qi59/79YbLdk4U=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-05-12T20:56:02.503+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234 .
+}
