@@ -1,4 +1,4 @@
-@prefix : <http://purl.org/np/> .
+@prefix : <http://purl.org/nanopub/temp/gdpr-comment-template/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -28,7 +28,7 @@
 		nt:statementOrder "1"^^xsd:integer .
     rdfs:comment rdfs:label "has my comment" .
 	:gdpr-article a nt:RestrictedChoicePlaceholder ;
-		nt:possibleValuesFrom <http://purl.org/np/RAJGUpLZK5MVr3lYXL12JXuuQnf-1NZncLipq7AD5Io7k> ;
+		nt:possibleValuesFrom <http://purl.org/np/RAdmaRECvfkb2w_ZkL5WECfA7iNBV3yk2qAIQCP2uy038> ;
 		nt:hasPrefixLabel "GDPR's" .
     dct:description rdfs:label "has the comment text" .
 	:comment a nt:LiteralPlaceholder .
@@ -39,6 +39,6 @@
 }
 
 :pubinfo {
-	: dct:created "2020-05-12T12:45:19.381+02:00"^^xsd:dateTime ;
+	: dct:created "2020-05-12T20:56:02.503+02:00"^^xsd:dateTime ;
 		dct:creator orcid:0000-0002-1267-0234 .
 }

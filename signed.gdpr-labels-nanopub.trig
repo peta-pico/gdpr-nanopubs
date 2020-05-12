@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAJGUpLZK5MVr3lYXL12JXuuQnf-1NZncLipq7AD5Io7k> .
-@prefix sub: <http://purl.org/np/RAJGUpLZK5MVr3lYXL12JXuuQnf-1NZncLipq7AD5Io7k#> .
+@prefix this: <http://purl.org/np/RAdmaRECvfkb2w_ZkL5WECfA7iNBV3yk2qAIQCP2uy038> .
+@prefix sub: <http://purl.org/np/RAdmaRECvfkb2w_ZkL5WECfA7iNBV3yk2qAIQCP2uy038#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -19,1757 +19,1757 @@ sub:Head {
 sub:assertion {
   gdpr:article1 rdfs:label "Article 1" .
   
-  gdpr:article1-1 rdfs:label "Article1(1)" .
+  gdpr:article1-1 rdfs:label "Article 1(1)" .
   
-  gdpr:article1-2 rdfs:label "Article1(2)" .
+  gdpr:article1-2 rdfs:label "Article 1(2)" .
   
-  gdpr:article1-3 rdfs:label "Article1(3)" .
+  gdpr:article1-3 rdfs:label "Article 1(3)" .
   
   gdpr:article10 rdfs:label "Article 10" .
   
-  gdpr:article10-1 rdfs:label "Article10(1)" .
+  gdpr:article10-1 rdfs:label "Article 10(1)" .
   
   gdpr:article11 rdfs:label "Article 11" .
   
-  gdpr:article11-1 rdfs:label "Article11(1)" .
+  gdpr:article11-1 rdfs:label "Article 11(1)" .
   
-  gdpr:article11-2 rdfs:label "Article11(2)" .
+  gdpr:article11-2 rdfs:label "Article 11(2)" .
   
   gdpr:article12 rdfs:label "Article 12" .
   
-  gdpr:article12-1 rdfs:label "Article12(1)" .
+  gdpr:article12-1 rdfs:label "Article 12(1)" .
   
-  gdpr:article12-2 rdfs:label "Article12(2)" .
+  gdpr:article12-2 rdfs:label "Article 12(2)" .
   
-  gdpr:article12-3 rdfs:label "Article12(3)" .
+  gdpr:article12-3 rdfs:label "Article 12(3)" .
   
-  gdpr:article12-4 rdfs:label "Article12(4)" .
+  gdpr:article12-4 rdfs:label "Article 12(4)" .
   
-  gdpr:article12-5 rdfs:label "Article12(5)" .
+  gdpr:article12-5 rdfs:label "Article 12(5)" .
   
-  gdpr:article12-5-a rdfs:label "Article12(5)(a)" .
+  gdpr:article12-5-a rdfs:label "Article 12(5)(a)" .
   
-  gdpr:article12-5-b rdfs:label "Article12(5)(b)" .
+  gdpr:article12-5-b rdfs:label "Article 12(5)(b)" .
   
-  gdpr:article12-6 rdfs:label "Article12(6)" .
+  gdpr:article12-6 rdfs:label "Article 12(6)" .
   
-  gdpr:article12-7 rdfs:label "Article12(7)" .
+  gdpr:article12-7 rdfs:label "Article 12(7)" .
   
-  gdpr:article12-8 rdfs:label "Article12(8)" .
+  gdpr:article12-8 rdfs:label "Article 12(8)" .
   
   gdpr:article13 rdfs:label "Article 13" .
   
-  gdpr:article13-1 rdfs:label "Article13(1)" .
+  gdpr:article13-1 rdfs:label "Article 13(1)" .
   
-  gdpr:article13-1-a rdfs:label "Article13(1)(a)" .
+  gdpr:article13-1-a rdfs:label "Article 13(1)(a)" .
   
-  gdpr:article13-1-b rdfs:label "Article13(1)(b)" .
+  gdpr:article13-1-b rdfs:label "Article 13(1)(b)" .
   
-  gdpr:article13-1-c rdfs:label "Article13(1)(c)" .
+  gdpr:article13-1-c rdfs:label "Article 13(1)(c)" .
   
-  gdpr:article13-1-d rdfs:label "Article13(1)(d)" .
+  gdpr:article13-1-d rdfs:label "Article 13(1)(d)" .
   
-  gdpr:article13-1-e rdfs:label "Article13(1)(e)" .
+  gdpr:article13-1-e rdfs:label "Article 13(1)(e)" .
   
-  gdpr:article13-1-f rdfs:label "Article13(1)(f)" .
+  gdpr:article13-1-f rdfs:label "Article 13(1)(f)" .
   
-  gdpr:article13-2 rdfs:label "Article13(2)" .
+  gdpr:article13-2 rdfs:label "Article 13(2)" .
   
-  gdpr:article13-2-a rdfs:label "Article13(2)(a)" .
+  gdpr:article13-2-a rdfs:label "Article 13(2)(a)" .
   
-  gdpr:article13-2-b rdfs:label "Article13(2)(b)" .
+  gdpr:article13-2-b rdfs:label "Article 13(2)(b)" .
   
-  gdpr:article13-2-c rdfs:label "Article13(2)(c)" .
+  gdpr:article13-2-c rdfs:label "Article 13(2)(c)" .
   
-  gdpr:article13-2-d rdfs:label "Article13(2)(d)" .
+  gdpr:article13-2-d rdfs:label "Article 13(2)(d)" .
   
-  gdpr:article13-2-e rdfs:label "Article13(2)(e)" .
+  gdpr:article13-2-e rdfs:label "Article 13(2)(e)" .
   
-  gdpr:article13-2-f rdfs:label "Article13(2)(f)" .
+  gdpr:article13-2-f rdfs:label "Article 13(2)(f)" .
   
-  gdpr:article13-3 rdfs:label "Article13(3)" .
+  gdpr:article13-3 rdfs:label "Article 13(3)" .
   
-  gdpr:article13-4 rdfs:label "Article13(4)" .
+  gdpr:article13-4 rdfs:label "Article 13(4)" .
   
   gdpr:article14 rdfs:label "Article 14" .
   
-  gdpr:article14-1 rdfs:label "Article14(1)" .
+  gdpr:article14-1 rdfs:label "Article 14(1)" .
   
-  gdpr:article14-1-a rdfs:label "Article14(1)(a)" .
+  gdpr:article14-1-a rdfs:label "Article 14(1)(a)" .
   
-  gdpr:article14-1-b rdfs:label "Article14(1)(b)" .
+  gdpr:article14-1-b rdfs:label "Article 14(1)(b)" .
   
-  gdpr:article14-1-c rdfs:label "Article14(1)(c)" .
+  gdpr:article14-1-c rdfs:label "Article 14(1)(c)" .
   
-  gdpr:article14-1-d rdfs:label "Article14(1)(d)" .
+  gdpr:article14-1-d rdfs:label "Article 14(1)(d)" .
   
-  gdpr:article14-1-e rdfs:label "Article14(1)(e)" .
+  gdpr:article14-1-e rdfs:label "Article 14(1)(e)" .
   
-  gdpr:article14-1-f rdfs:label "Article14(1)(f)" .
+  gdpr:article14-1-f rdfs:label "Article 14(1)(f)" .
   
-  gdpr:article14-2 rdfs:label "Article14(2)" .
+  gdpr:article14-2 rdfs:label "Article 14(2)" .
   
-  gdpr:article14-2-a rdfs:label "Article14(2)(a)" .
+  gdpr:article14-2-a rdfs:label "Article 14(2)(a)" .
   
-  gdpr:article14-2-b rdfs:label "Article14(2)(b)" .
+  gdpr:article14-2-b rdfs:label "Article 14(2)(b)" .
   
-  gdpr:article14-2-c rdfs:label "Article14(2)(c)" .
+  gdpr:article14-2-c rdfs:label "Article 14(2)(c)" .
   
-  gdpr:article14-2-d rdfs:label "Article14(2)(d)" .
+  gdpr:article14-2-d rdfs:label "Article 14(2)(d)" .
   
-  gdpr:article14-2-e rdfs:label "Article14(2)(e)" .
+  gdpr:article14-2-e rdfs:label "Article 14(2)(e)" .
   
-  gdpr:article14-2-f rdfs:label "Article14(2)(f)" .
+  gdpr:article14-2-f rdfs:label "Article 14(2)(f)" .
   
-  gdpr:article14-2-g rdfs:label "Article14(2)(g)" .
+  gdpr:article14-2-g rdfs:label "Article 14(2)(g)" .
   
-  gdpr:article14-3 rdfs:label "Article14(3)" .
+  gdpr:article14-3 rdfs:label "Article 14(3)" .
   
-  gdpr:article14-3-a rdfs:label "Article14(3)(a)" .
+  gdpr:article14-3-a rdfs:label "Article 14(3)(a)" .
   
-  gdpr:article14-3-b rdfs:label "Article14(3)(b)" .
+  gdpr:article14-3-b rdfs:label "Article 14(3)(b)" .
   
-  gdpr:article14-3-c rdfs:label "Article14(3)(c)" .
+  gdpr:article14-3-c rdfs:label "Article 14(3)(c)" .
   
-  gdpr:article14-4 rdfs:label "Article14(4)" .
+  gdpr:article14-4 rdfs:label "Article 14(4)" .
   
-  gdpr:article14-5 rdfs:label "Article14(5)" .
+  gdpr:article14-5 rdfs:label "Article 14(5)" .
   
-  gdpr:article14-5-a rdfs:label "Article14(5)(a)" .
+  gdpr:article14-5-a rdfs:label "Article 14(5)(a)" .
   
-  gdpr:article14-5-b rdfs:label "Article14(5)(b)" .
+  gdpr:article14-5-b rdfs:label "Article 14(5)(b)" .
   
-  gdpr:article14-5-c rdfs:label "Article14(5)(c)" .
+  gdpr:article14-5-c rdfs:label "Article 14(5)(c)" .
   
-  gdpr:article14-5-d rdfs:label "Article14(5)(d)" .
+  gdpr:article14-5-d rdfs:label "Article 14(5)(d)" .
   
   gdpr:article15 rdfs:label "Article 15" .
   
-  gdpr:article15-1 rdfs:label "Article15(1)" .
+  gdpr:article15-1 rdfs:label "Article 15(1)" .
   
-  gdpr:article15-1-a rdfs:label "Article15(1)(a)" .
+  gdpr:article15-1-a rdfs:label "Article 15(1)(a)" .
   
-  gdpr:article15-1-b rdfs:label "Article15(1)(b)" .
+  gdpr:article15-1-b rdfs:label "Article 15(1)(b)" .
   
-  gdpr:article15-1-c rdfs:label "Article15(1)(c)" .
+  gdpr:article15-1-c rdfs:label "Article 15(1)(c)" .
   
-  gdpr:article15-1-d rdfs:label "Article15(1)(d)" .
+  gdpr:article15-1-d rdfs:label "Article 15(1)(d)" .
   
-  gdpr:article15-1-e rdfs:label "Article15(1)(e)" .
+  gdpr:article15-1-e rdfs:label "Article 15(1)(e)" .
   
-  gdpr:article15-1-f rdfs:label "Article15(1)(f)" .
+  gdpr:article15-1-f rdfs:label "Article 15(1)(f)" .
   
-  gdpr:article15-1-g rdfs:label "Article15(1)(g)" .
+  gdpr:article15-1-g rdfs:label "Article 15(1)(g)" .
   
-  gdpr:article15-1-h rdfs:label "Article15(1)(h)" .
+  gdpr:article15-1-h rdfs:label "Article 15(1)(h)" .
   
-  gdpr:article15-2 rdfs:label "Article15(2)" .
+  gdpr:article15-2 rdfs:label "Article 15(2)" .
   
-  gdpr:article15-3 rdfs:label "Article15(3)" .
+  gdpr:article15-3 rdfs:label "Article 15(3)" .
   
-  gdpr:article15-4 rdfs:label "Article15(4)" .
+  gdpr:article15-4 rdfs:label "Article 15(4)" .
   
   gdpr:article16 rdfs:label "Article 16" .
   
-  gdpr:article16-1 rdfs:label "Article16(1)" .
+  gdpr:article16-1 rdfs:label "Article 16(1)" .
   
   gdpr:article17 rdfs:label "Article 17" .
   
-  gdpr:article17-1 rdfs:label "Article17(1)" .
+  gdpr:article17-1 rdfs:label "Article 17(1)" .
   
-  gdpr:article17-1-a rdfs:label "Article17(1)(a)" .
+  gdpr:article17-1-a rdfs:label "Article 17(1)(a)" .
   
-  gdpr:article17-1-b rdfs:label "Article17(1)(b)" .
+  gdpr:article17-1-b rdfs:label "Article 17(1)(b)" .
   
-  gdpr:article17-1-c rdfs:label "Article17(1)(c)" .
+  gdpr:article17-1-c rdfs:label "Article 17(1)(c)" .
   
-  gdpr:article17-1-d rdfs:label "Article17(1)(d)" .
+  gdpr:article17-1-d rdfs:label "Article 17(1)(d)" .
   
-  gdpr:article17-1-e rdfs:label "Article17(1)(e)" .
+  gdpr:article17-1-e rdfs:label "Article 17(1)(e)" .
   
-  gdpr:article17-1-f rdfs:label "Article17(1)(f)" .
+  gdpr:article17-1-f rdfs:label "Article 17(1)(f)" .
   
-  gdpr:article17-2 rdfs:label "Article17(2)" .
+  gdpr:article17-2 rdfs:label "Article 17(2)" .
   
-  gdpr:article17-3 rdfs:label "Article17(3)" .
+  gdpr:article17-3 rdfs:label "Article 17(3)" .
   
-  gdpr:article17-3-a rdfs:label "Article17(3)(a)" .
+  gdpr:article17-3-a rdfs:label "Article 17(3)(a)" .
   
-  gdpr:article17-3-b rdfs:label "Article17(3)(b)" .
+  gdpr:article17-3-b rdfs:label "Article 17(3)(b)" .
   
-  gdpr:article17-3-c rdfs:label "Article17(3)(c)" .
+  gdpr:article17-3-c rdfs:label "Article 17(3)(c)" .
   
-  gdpr:article17-3-d rdfs:label "Article17(3)(d)" .
+  gdpr:article17-3-d rdfs:label "Article 17(3)(d)" .
   
-  gdpr:article17-3-e rdfs:label "Article17(3)(e)" .
+  gdpr:article17-3-e rdfs:label "Article 17(3)(e)" .
   
   gdpr:article18 rdfs:label "Article 18" .
   
-  gdpr:article18-1 rdfs:label "Article18(1)" .
+  gdpr:article18-1 rdfs:label "Article 18(1)" .
   
-  gdpr:article18-1-a rdfs:label "Article18(1)(a)" .
+  gdpr:article18-1-a rdfs:label "Article 18(1)(a)" .
   
-  gdpr:article18-1-b rdfs:label "Article18(1)(b)" .
+  gdpr:article18-1-b rdfs:label "Article 18(1)(b)" .
   
-  gdpr:article18-1-c rdfs:label "Article18(1)(c)" .
+  gdpr:article18-1-c rdfs:label "Article 18(1)(c)" .
   
-  gdpr:article18-1-d rdfs:label "Article18(1)(d)" .
+  gdpr:article18-1-d rdfs:label "Article 18(1)(d)" .
   
-  gdpr:article18-2 rdfs:label "Article18(2)" .
+  gdpr:article18-2 rdfs:label "Article 18(2)" .
   
-  gdpr:article18-3 rdfs:label "Article18(3)" .
+  gdpr:article18-3 rdfs:label "Article 18(3)" .
   
   gdpr:article19 rdfs:label "Article 19" .
   
-  gdpr:article19-1 rdfs:label "Article19(1)" .
+  gdpr:article19-1 rdfs:label "Article 19(1)" .
   
   gdpr:article2 rdfs:label "Article 2" .
   
-  gdpr:article2-1 rdfs:label "Article2(1)" .
+  gdpr:article2-1 rdfs:label "Article 2(1)" .
   
-  gdpr:article2-2 rdfs:label "Article2(2)" .
+  gdpr:article2-2 rdfs:label "Article 2(2)" .
   
-  gdpr:article2-2-a rdfs:label "Article2(2)(a)" .
+  gdpr:article2-2-a rdfs:label "Article 2(2)(a)" .
   
-  gdpr:article2-2-b rdfs:label "Article2(2)(b)" .
+  gdpr:article2-2-b rdfs:label "Article 2(2)(b)" .
   
-  gdpr:article2-2-c rdfs:label "Article2(2)(c)" .
+  gdpr:article2-2-c rdfs:label "Article 2(2)(c)" .
   
-  gdpr:article2-2-d rdfs:label "Article2(2)(d)" .
+  gdpr:article2-2-d rdfs:label "Article 2(2)(d)" .
   
-  gdpr:article2-3 rdfs:label "Article2(3)" .
+  gdpr:article2-3 rdfs:label "Article 2(3)" .
   
-  gdpr:article2-4 rdfs:label "Article2(4)" .
+  gdpr:article2-4 rdfs:label "Article 2(4)" .
   
   gdpr:article20 rdfs:label "Article 20" .
   
-  gdpr:article20-1 rdfs:label "Article20(1)" .
+  gdpr:article20-1 rdfs:label "Article 20(1)" .
   
-  gdpr:article20-1-a rdfs:label "Article20(1)(a)" .
+  gdpr:article20-1-a rdfs:label "Article 20(1)(a)" .
   
-  gdpr:article20-1-b rdfs:label "Article20(1)(b)" .
+  gdpr:article20-1-b rdfs:label "Article 20(1)(b)" .
   
-  gdpr:article20-2 rdfs:label "Article20(2)" .
+  gdpr:article20-2 rdfs:label "Article 20(2)" .
   
-  gdpr:article20-3 rdfs:label "Article20(3)" .
+  gdpr:article20-3 rdfs:label "Article 20(3)" .
   
-  gdpr:article20-4 rdfs:label "Article20(4)" .
+  gdpr:article20-4 rdfs:label "Article 20(4)" .
   
   gdpr:article21 rdfs:label "Article 21" .
   
-  gdpr:article21-1 rdfs:label "Article21(1)" .
+  gdpr:article21-1 rdfs:label "Article 21(1)" .
   
-  gdpr:article21-2 rdfs:label "Article21(2)" .
+  gdpr:article21-2 rdfs:label "Article 21(2)" .
   
-  gdpr:article21-3 rdfs:label "Article21(3)" .
+  gdpr:article21-3 rdfs:label "Article 21(3)" .
   
-  gdpr:article21-4 rdfs:label "Article21(4)" .
+  gdpr:article21-4 rdfs:label "Article 21(4)" .
   
-  gdpr:article21-5 rdfs:label "Article21(5)" .
+  gdpr:article21-5 rdfs:label "Article 21(5)" .
   
-  gdpr:article21-6 rdfs:label "Article21(6)" .
+  gdpr:article21-6 rdfs:label "Article 21(6)" .
   
   gdpr:article22 rdfs:label "Article 22" .
   
-  gdpr:article22-1 rdfs:label "Article22(1)" .
+  gdpr:article22-1 rdfs:label "Article 22(1)" .
   
-  gdpr:article22-2 rdfs:label "Article22(2)" .
+  gdpr:article22-2 rdfs:label "Article 22(2)" .
   
-  gdpr:article22-2-a rdfs:label "Article22(2)(a)" .
+  gdpr:article22-2-a rdfs:label "Article 22(2)(a)" .
   
-  gdpr:article22-2-b rdfs:label "Article22(2)(b)" .
+  gdpr:article22-2-b rdfs:label "Article 22(2)(b)" .
   
-  gdpr:article22-2-c rdfs:label "Article22(2)(c)" .
+  gdpr:article22-2-c rdfs:label "Article 22(2)(c)" .
   
-  gdpr:article22-3 rdfs:label "Article22(3)" .
+  gdpr:article22-3 rdfs:label "Article 22(3)" .
   
-  gdpr:article22-4 rdfs:label "Article22(4)" .
+  gdpr:article22-4 rdfs:label "Article 22(4)" .
   
   gdpr:article23 rdfs:label "Article 23" .
   
-  gdpr:article23-1 rdfs:label "Article23(1)" .
+  gdpr:article23-1 rdfs:label "Article 23(1)" .
   
-  gdpr:article23-1-a rdfs:label "Article23(1)(a)" .
+  gdpr:article23-1-a rdfs:label "Article 23(1)(a)" .
   
-  gdpr:article23-1-b rdfs:label "Article23(1)(b)" .
+  gdpr:article23-1-b rdfs:label "Article 23(1)(b)" .
   
-  gdpr:article23-1-c rdfs:label "Article23(1)(c)" .
+  gdpr:article23-1-c rdfs:label "Article 23(1)(c)" .
   
-  gdpr:article23-1-d rdfs:label "Article23(1)(d)" .
+  gdpr:article23-1-d rdfs:label "Article 23(1)(d)" .
   
-  gdpr:article23-1-e rdfs:label "Article23(1)(e)" .
+  gdpr:article23-1-e rdfs:label "Article 23(1)(e)" .
   
-  gdpr:article23-1-f rdfs:label "Article23(1)(f)" .
+  gdpr:article23-1-f rdfs:label "Article 23(1)(f)" .
   
-  gdpr:article23-1-g rdfs:label "Article23(1)(g)" .
+  gdpr:article23-1-g rdfs:label "Article 23(1)(g)" .
   
-  gdpr:article23-1-h rdfs:label "Article23(1)(h)" .
+  gdpr:article23-1-h rdfs:label "Article 23(1)(h)" .
   
-  gdpr:article23-1-i rdfs:label "Article23(1)(i)" .
+  gdpr:article23-1-i rdfs:label "Article 23(1)(i)" .
   
-  gdpr:article23-1-j rdfs:label "Article23(1)(j)" .
+  gdpr:article23-1-j rdfs:label "Article 23(1)(j)" .
   
-  gdpr:article23-2 rdfs:label "Article23(2)" .
+  gdpr:article23-2 rdfs:label "Article 23(2)" .
   
-  gdpr:article23-2-a rdfs:label "Article23(2)(a)" .
+  gdpr:article23-2-a rdfs:label "Article 23(2)(a)" .
   
-  gdpr:article23-2-b rdfs:label "Article23(2)(b)" .
+  gdpr:article23-2-b rdfs:label "Article 23(2)(b)" .
   
-  gdpr:article23-2-c rdfs:label "Article23(2)(c)" .
+  gdpr:article23-2-c rdfs:label "Article 23(2)(c)" .
   
-  gdpr:article23-2-d rdfs:label "Article23(2)(d)" .
+  gdpr:article23-2-d rdfs:label "Article 23(2)(d)" .
   
-  gdpr:article23-2-e rdfs:label "Article23(2)(e)" .
+  gdpr:article23-2-e rdfs:label "Article 23(2)(e)" .
   
-  gdpr:article23-2-f rdfs:label "Article23(2)(f)" .
+  gdpr:article23-2-f rdfs:label "Article 23(2)(f)" .
   
-  gdpr:article23-2-g rdfs:label "Article23(2)(g)" .
+  gdpr:article23-2-g rdfs:label "Article 23(2)(g)" .
   
-  gdpr:article23-2-h rdfs:label "Article23(2)(h)" .
+  gdpr:article23-2-h rdfs:label "Article 23(2)(h)" .
   
   gdpr:article24 rdfs:label "Article 24" .
   
-  gdpr:article24-1 rdfs:label "Article24(1)" .
+  gdpr:article24-1 rdfs:label "Article 24(1)" .
   
-  gdpr:article24-2 rdfs:label "Article24(2)" .
+  gdpr:article24-2 rdfs:label "Article 24(2)" .
   
-  gdpr:article24-3 rdfs:label "Article24(3)" .
+  gdpr:article24-3 rdfs:label "Article 24(3)" .
   
   gdpr:article25 rdfs:label "Article 25" .
   
-  gdpr:article25-1 rdfs:label "Article25(1)" .
+  gdpr:article25-1 rdfs:label "Article 25(1)" .
   
-  gdpr:article25-2 rdfs:label "Article25(2)" .
+  gdpr:article25-2 rdfs:label "Article 25(2)" .
   
-  gdpr:article25-3 rdfs:label "Article25(3)" .
+  gdpr:article25-3 rdfs:label "Article 25(3)" .
   
   gdpr:article26 rdfs:label "Article 26" .
   
-  gdpr:article26-1 rdfs:label "Article26(1)" .
+  gdpr:article26-1 rdfs:label "Article 26(1)" .
   
-  gdpr:article26-2 rdfs:label "Article26(2)" .
+  gdpr:article26-2 rdfs:label "Article 26(2)" .
   
-  gdpr:article26-3 rdfs:label "Article26(3)" .
+  gdpr:article26-3 rdfs:label "Article 26(3)" .
   
   gdpr:article27 rdfs:label "Article 27" .
   
-  gdpr:article27-1 rdfs:label "Article27(1)" .
+  gdpr:article27-1 rdfs:label "Article 27(1)" .
   
-  gdpr:article27-2 rdfs:label "Article27(2)" .
+  gdpr:article27-2 rdfs:label "Article 27(2)" .
   
-  gdpr:article27-2-a rdfs:label "Article27(2)(a)" .
+  gdpr:article27-2-a rdfs:label "Article 27(2)(a)" .
   
-  gdpr:article27-2-b rdfs:label "Article27(2)(b)" .
+  gdpr:article27-2-b rdfs:label "Article 27(2)(b)" .
   
-  gdpr:article27-3 rdfs:label "Article27(3)" .
+  gdpr:article27-3 rdfs:label "Article 27(3)" .
   
-  gdpr:article27-4 rdfs:label "Article27(4)" .
+  gdpr:article27-4 rdfs:label "Article 27(4)" .
   
-  gdpr:article27-5 rdfs:label "Article27(5)" .
+  gdpr:article27-5 rdfs:label "Article 27(5)" .
   
   gdpr:article28 rdfs:label "Article 28" .
   
-  gdpr:article28-1 rdfs:label "Article28(1)" .
+  gdpr:article28-1 rdfs:label "Article 28(1)" .
   
-  gdpr:article28-10 rdfs:label "Article28(10)" .
+  gdpr:article28-10 rdfs:label "Article 28(10)" .
   
-  gdpr:article28-2 rdfs:label "Article28(2)" .
+  gdpr:article28-2 rdfs:label "Article 28(2)" .
   
-  gdpr:article28-3 rdfs:label "Article28(3)" .
+  gdpr:article28-3 rdfs:label "Article 28(3)" .
   
-  gdpr:article28-3-a rdfs:label "Article28(3)(a)" .
+  gdpr:article28-3-a rdfs:label "Article 28(3)(a)" .
   
-  gdpr:article28-3-b rdfs:label "Article28(3)(b)" .
+  gdpr:article28-3-b rdfs:label "Article 28(3)(b)" .
   
-  gdpr:article28-3-c rdfs:label "Article28(3)(c)" .
+  gdpr:article28-3-c rdfs:label "Article 28(3)(c)" .
   
-  gdpr:article28-3-d rdfs:label "Article28(3)(d)" .
+  gdpr:article28-3-d rdfs:label "Article 28(3)(d)" .
   
-  gdpr:article28-3-e rdfs:label "Article28(3)(e)" .
+  gdpr:article28-3-e rdfs:label "Article 28(3)(e)" .
   
-  gdpr:article28-3-f rdfs:label "Article28(3)(f)" .
+  gdpr:article28-3-f rdfs:label "Article 28(3)(f)" .
   
-  gdpr:article28-3-g rdfs:label "Article28(3)(g)" .
+  gdpr:article28-3-g rdfs:label "Article 28(3)(g)" .
   
-  gdpr:article28-3-h rdfs:label "Article28(3)(h)" .
+  gdpr:article28-3-h rdfs:label "Article 28(3)(h)" .
   
-  gdpr:article28-4 rdfs:label "Article28(4)" .
+  gdpr:article28-4 rdfs:label "Article 28(4)" .
   
-  gdpr:article28-5 rdfs:label "Article28(5)" .
+  gdpr:article28-5 rdfs:label "Article 28(5)" .
   
-  gdpr:article28-6 rdfs:label "Article28(6)" .
+  gdpr:article28-6 rdfs:label "Article 28(6)" .
   
-  gdpr:article28-7 rdfs:label "Article28(7)" .
+  gdpr:article28-7 rdfs:label "Article 28(7)" .
   
-  gdpr:article28-8 rdfs:label "Article28(8)" .
+  gdpr:article28-8 rdfs:label "Article 28(8)" .
   
-  gdpr:article28-9 rdfs:label "Article28(9)" .
+  gdpr:article28-9 rdfs:label "Article 28(9)" .
   
   gdpr:article29 rdfs:label "Article 29" .
   
-  gdpr:article29-1 rdfs:label "Article29(1)" .
+  gdpr:article29-1 rdfs:label "Article 29(1)" .
   
   gdpr:article3 rdfs:label "Article 3" .
   
-  gdpr:article3-1 rdfs:label "Article3(1)" .
+  gdpr:article3-1 rdfs:label "Article 3(1)" .
   
-  gdpr:article3-2 rdfs:label "Article3(2)" .
+  gdpr:article3-2 rdfs:label "Article 3(2)" .
   
-  gdpr:article3-2-a rdfs:label "Article3(2)(a)" .
+  gdpr:article3-2-a rdfs:label "Article 3(2)(a)" .
   
-  gdpr:article3-2-b rdfs:label "Article3(2)(b)" .
+  gdpr:article3-2-b rdfs:label "Article 3(2)(b)" .
   
-  gdpr:article3-3 rdfs:label "Article3(3)" .
+  gdpr:article3-3 rdfs:label "Article 3(3)" .
   
   gdpr:article30 rdfs:label "Article 30" .
   
-  gdpr:article30-1 rdfs:label "Article30(1)" .
+  gdpr:article30-1 rdfs:label "Article 30(1)" .
   
-  gdpr:article30-1-a rdfs:label "Article30(1)(a)" .
+  gdpr:article30-1-a rdfs:label "Article 30(1)(a)" .
   
-  gdpr:article30-1-b rdfs:label "Article30(1)(b)" .
+  gdpr:article30-1-b rdfs:label "Article 30(1)(b)" .
   
-  gdpr:article30-1-c rdfs:label "Article30(1)(c)" .
+  gdpr:article30-1-c rdfs:label "Article 30(1)(c)" .
   
-  gdpr:article30-1-d rdfs:label "Article30(1)(d)" .
+  gdpr:article30-1-d rdfs:label "Article 30(1)(d)" .
   
-  gdpr:article30-1-e rdfs:label "Article30(1)(e)" .
+  gdpr:article30-1-e rdfs:label "Article 30(1)(e)" .
   
-  gdpr:article30-1-f rdfs:label "Article30(1)(f)" .
+  gdpr:article30-1-f rdfs:label "Article 30(1)(f)" .
   
-  gdpr:article30-1-g rdfs:label "Article30(1)(g)" .
+  gdpr:article30-1-g rdfs:label "Article 30(1)(g)" .
   
-  gdpr:article30-2 rdfs:label "Article30(2)" .
+  gdpr:article30-2 rdfs:label "Article 30(2)" .
   
-  gdpr:article30-2-a rdfs:label "Article30(2)(a)" .
+  gdpr:article30-2-a rdfs:label "Article 30(2)(a)" .
   
-  gdpr:article30-2-b rdfs:label "Article30(2)(b)" .
+  gdpr:article30-2-b rdfs:label "Article 30(2)(b)" .
   
-  gdpr:article30-2-c rdfs:label "Article30(2)(c)" .
+  gdpr:article30-2-c rdfs:label "Article 30(2)(c)" .
   
-  gdpr:article30-2-d rdfs:label "Article30(2)(d)" .
+  gdpr:article30-2-d rdfs:label "Article 30(2)(d)" .
   
-  gdpr:article30-3 rdfs:label "Article30(3)" .
+  gdpr:article30-3 rdfs:label "Article 30(3)" .
   
-  gdpr:article30-4 rdfs:label "Article30(4)" .
+  gdpr:article30-4 rdfs:label "Article 30(4)" .
   
-  gdpr:article30-5 rdfs:label "Article30(5)" .
+  gdpr:article30-5 rdfs:label "Article 30(5)" .
   
   gdpr:article31 rdfs:label "Article 31" .
   
-  gdpr:article31-1 rdfs:label "Article31(1)" .
+  gdpr:article31-1 rdfs:label "Article 31(1)" .
   
   gdpr:article32 rdfs:label "Article 32" .
   
-  gdpr:article32-1 rdfs:label "Article32(1)" .
+  gdpr:article32-1 rdfs:label "Article 32(1)" .
   
-  gdpr:article32-1-a rdfs:label "Article32(1)(a)" .
+  gdpr:article32-1-a rdfs:label "Article 32(1)(a)" .
   
-  gdpr:article32-1-b rdfs:label "Article32(1)(b)" .
+  gdpr:article32-1-b rdfs:label "Article 32(1)(b)" .
   
-  gdpr:article32-1-c rdfs:label "Article32(1)(c)" .
+  gdpr:article32-1-c rdfs:label "Article 32(1)(c)" .
   
-  gdpr:article32-1-d rdfs:label "Article32(1)(d)" .
+  gdpr:article32-1-d rdfs:label "Article 32(1)(d)" .
   
-  gdpr:article32-2 rdfs:label "Article32(2)" .
+  gdpr:article32-2 rdfs:label "Article 32(2)" .
   
-  gdpr:article32-3 rdfs:label "Article32(3)" .
+  gdpr:article32-3 rdfs:label "Article 32(3)" .
   
-  gdpr:article32-4 rdfs:label "Article32(4)" .
+  gdpr:article32-4 rdfs:label "Article 32(4)" .
   
   gdpr:article33 rdfs:label "Article 33" .
   
-  gdpr:article33-1 rdfs:label "Article33(1)" .
+  gdpr:article33-1 rdfs:label "Article 33(1)" .
   
-  gdpr:article33-2 rdfs:label "Article33(2)" .
+  gdpr:article33-2 rdfs:label "Article 33(2)" .
   
-  gdpr:article33-3 rdfs:label "Article33(3)" .
+  gdpr:article33-3 rdfs:label "Article 33(3)" .
   
-  gdpr:article33-3-a rdfs:label "Article33(3)(a)" .
+  gdpr:article33-3-a rdfs:label "Article 33(3)(a)" .
   
-  gdpr:article33-3-b rdfs:label "Article33(3)(b)" .
+  gdpr:article33-3-b rdfs:label "Article 33(3)(b)" .
   
-  gdpr:article33-3-c rdfs:label "Article33(3)(c)" .
+  gdpr:article33-3-c rdfs:label "Article 33(3)(c)" .
   
-  gdpr:article33-3-d rdfs:label "Article33(3)(d)" .
+  gdpr:article33-3-d rdfs:label "Article 33(3)(d)" .
   
-  gdpr:article33-4 rdfs:label "Article33(4)" .
+  gdpr:article33-4 rdfs:label "Article 33(4)" .
   
-  gdpr:article33-5 rdfs:label "Article33(5)" .
+  gdpr:article33-5 rdfs:label "Article 33(5)" .
   
   gdpr:article34 rdfs:label "Article 34" .
   
-  gdpr:article34-1 rdfs:label "Article34(1)" .
+  gdpr:article34-1 rdfs:label "Article 34(1)" .
   
-  gdpr:article34-2 rdfs:label "Article34(2)" .
+  gdpr:article34-2 rdfs:label "Article 34(2)" .
   
-  gdpr:article34-3 rdfs:label "Article34(3)" .
+  gdpr:article34-3 rdfs:label "Article 34(3)" .
   
-  gdpr:article34-3-a rdfs:label "Article34(3)(a)" .
+  gdpr:article34-3-a rdfs:label "Article 34(3)(a)" .
   
-  gdpr:article34-3-b rdfs:label "Article34(3)(b)" .
+  gdpr:article34-3-b rdfs:label "Article 34(3)(b)" .
   
-  gdpr:article34-3-c rdfs:label "Article34(3)(c)" .
+  gdpr:article34-3-c rdfs:label "Article 34(3)(c)" .
   
-  gdpr:article34-4 rdfs:label "Article34(4)" .
+  gdpr:article34-4 rdfs:label "Article 34(4)" .
   
   gdpr:article35 rdfs:label "Article 35" .
   
-  gdpr:article35-1 rdfs:label "Article35(1)" .
+  gdpr:article35-1 rdfs:label "Article 35(1)" .
   
-  gdpr:article35-10 rdfs:label "Article35(10)" .
+  gdpr:article35-10 rdfs:label "Article 35(10)" .
   
-  gdpr:article35-11 rdfs:label "Article35(11)" .
+  gdpr:article35-11 rdfs:label "Article 35(11)" .
   
-  gdpr:article35-2 rdfs:label "Article35(2)" .
+  gdpr:article35-2 rdfs:label "Article 35(2)" .
   
-  gdpr:article35-3 rdfs:label "Article35(3)" .
+  gdpr:article35-3 rdfs:label "Article 35(3)" .
   
-  gdpr:article35-3-a rdfs:label "Article35(3)(a)" .
+  gdpr:article35-3-a rdfs:label "Article 35(3)(a)" .
   
-  gdpr:article35-3-b rdfs:label "Article35(3)(b)" .
+  gdpr:article35-3-b rdfs:label "Article 35(3)(b)" .
   
-  gdpr:article35-3-c rdfs:label "Article35(3)(c)" .
+  gdpr:article35-3-c rdfs:label "Article 35(3)(c)" .
   
-  gdpr:article35-4 rdfs:label "Article35(4)" .
+  gdpr:article35-4 rdfs:label "Article 35(4)" .
   
-  gdpr:article35-5 rdfs:label "Article35(5)" .
+  gdpr:article35-5 rdfs:label "Article 35(5)" .
   
-  gdpr:article35-6 rdfs:label "Article35(6)" .
+  gdpr:article35-6 rdfs:label "Article 35(6)" .
   
-  gdpr:article35-7 rdfs:label "Article35(7)" .
+  gdpr:article35-7 rdfs:label "Article 35(7)" .
   
-  gdpr:article35-7-a rdfs:label "Article35(7)(a)" .
+  gdpr:article35-7-a rdfs:label "Article 35(7)(a)" .
   
-  gdpr:article35-7-b rdfs:label "Article35(7)(b)" .
+  gdpr:article35-7-b rdfs:label "Article 35(7)(b)" .
   
-  gdpr:article35-7-c rdfs:label "Article35(7)(c)" .
+  gdpr:article35-7-c rdfs:label "Article 35(7)(c)" .
   
-  gdpr:article35-7-d rdfs:label "Article35(7)(d)" .
+  gdpr:article35-7-d rdfs:label "Article 35(7)(d)" .
   
-  gdpr:article35-8 rdfs:label "Article35(8)" .
+  gdpr:article35-8 rdfs:label "Article 35(8)" .
   
-  gdpr:article35-9 rdfs:label "Article35(9)" .
+  gdpr:article35-9 rdfs:label "Article 35(9)" .
   
   gdpr:article36 rdfs:label "Article 36" .
   
-  gdpr:article36-1 rdfs:label "Article36(1)" .
+  gdpr:article36-1 rdfs:label "Article 36(1)" .
   
-  gdpr:article36-2 rdfs:label "Article36(2)" .
+  gdpr:article36-2 rdfs:label "Article 36(2)" .
   
-  gdpr:article36-3 rdfs:label "Article36(3)" .
+  gdpr:article36-3 rdfs:label "Article 36(3)" .
   
-  gdpr:article36-3-a rdfs:label "Article36(3)(a)" .
+  gdpr:article36-3-a rdfs:label "Article 36(3)(a)" .
   
-  gdpr:article36-3-b rdfs:label "Article36(3)(b)" .
+  gdpr:article36-3-b rdfs:label "Article 36(3)(b)" .
   
-  gdpr:article36-3-c rdfs:label "Article36(3)(c)" .
+  gdpr:article36-3-c rdfs:label "Article 36(3)(c)" .
   
-  gdpr:article36-3-d rdfs:label "Article36(3)(d)" .
+  gdpr:article36-3-d rdfs:label "Article 36(3)(d)" .
   
-  gdpr:article36-3-e rdfs:label "Article36(3)(e)" .
+  gdpr:article36-3-e rdfs:label "Article 36(3)(e)" .
   
-  gdpr:article36-3-f rdfs:label "Article36(3)(f)" .
+  gdpr:article36-3-f rdfs:label "Article 36(3)(f)" .
   
-  gdpr:article36-4 rdfs:label "Article36(4)" .
+  gdpr:article36-4 rdfs:label "Article 36(4)" .
   
-  gdpr:article36-5 rdfs:label "Article36(5)" .
+  gdpr:article36-5 rdfs:label "Article 36(5)" .
   
   gdpr:article37 rdfs:label "Article 37" .
   
-  gdpr:article37-1 rdfs:label "Article37(1)" .
+  gdpr:article37-1 rdfs:label "Article 37(1)" .
   
-  gdpr:article37-1-a rdfs:label "Article37(1)(a)" .
+  gdpr:article37-1-a rdfs:label "Article 37(1)(a)" .
   
-  gdpr:article37-1-b rdfs:label "Article37(1)(b)" .
+  gdpr:article37-1-b rdfs:label "Article 37(1)(b)" .
   
-  gdpr:article37-1-c rdfs:label "Article37(1)(c)" .
+  gdpr:article37-1-c rdfs:label "Article 37(1)(c)" .
   
-  gdpr:article37-2 rdfs:label "Article37(2)" .
+  gdpr:article37-2 rdfs:label "Article 37(2)" .
   
-  gdpr:article37-3 rdfs:label "Article37(3)" .
+  gdpr:article37-3 rdfs:label "Article 37(3)" .
   
-  gdpr:article37-4 rdfs:label "Article37(4)" .
+  gdpr:article37-4 rdfs:label "Article 37(4)" .
   
-  gdpr:article37-5 rdfs:label "Article37(5)" .
+  gdpr:article37-5 rdfs:label "Article 37(5)" .
   
-  gdpr:article37-6 rdfs:label "Article37(6)" .
+  gdpr:article37-6 rdfs:label "Article 37(6)" .
   
-  gdpr:article37-7 rdfs:label "Article37(7)" .
+  gdpr:article37-7 rdfs:label "Article 37(7)" .
   
   gdpr:article38 rdfs:label "Article 38" .
   
-  gdpr:article38-1 rdfs:label "Article38(1)" .
+  gdpr:article38-1 rdfs:label "Article 38(1)" .
   
-  gdpr:article38-2 rdfs:label "Article38(2)" .
+  gdpr:article38-2 rdfs:label "Article 38(2)" .
   
-  gdpr:article38-3 rdfs:label "Article38(3)" .
+  gdpr:article38-3 rdfs:label "Article 38(3)" .
   
-  gdpr:article38-4 rdfs:label "Article38(4)" .
+  gdpr:article38-4 rdfs:label "Article 38(4)" .
   
-  gdpr:article38-5 rdfs:label "Article38(5)" .
+  gdpr:article38-5 rdfs:label "Article 38(5)" .
   
-  gdpr:article38-6 rdfs:label "Article38(6)" .
+  gdpr:article38-6 rdfs:label "Article 38(6)" .
   
   gdpr:article39 rdfs:label "Article 39" .
   
-  gdpr:article39-1 rdfs:label "Article39(1)" .
+  gdpr:article39-1 rdfs:label "Article 39(1)" .
   
-  gdpr:article39-1-a rdfs:label "Article39(1)(a)" .
+  gdpr:article39-1-a rdfs:label "Article 39(1)(a)" .
   
-  gdpr:article39-1-b rdfs:label "Article39(1)(b)" .
+  gdpr:article39-1-b rdfs:label "Article 39(1)(b)" .
   
-  gdpr:article39-1-c rdfs:label "Article39(1)(c)" .
+  gdpr:article39-1-c rdfs:label "Article 39(1)(c)" .
   
-  gdpr:article39-1-d rdfs:label "Article39(1)(d)" .
+  gdpr:article39-1-d rdfs:label "Article 39(1)(d)" .
   
-  gdpr:article39-1-e rdfs:label "Article39(1)(e)" .
+  gdpr:article39-1-e rdfs:label "Article 39(1)(e)" .
   
-  gdpr:article39-2 rdfs:label "Article39(2)" .
+  gdpr:article39-2 rdfs:label "Article 39(2)" .
   
   gdpr:article4 rdfs:label "Article 4" .
   
-  gdpr:article4-1 rdfs:label "Article4(1)" .
+  gdpr:article4-1 rdfs:label "Article 4(1)" .
   
-  gdpr:article4-10 rdfs:label "Article4(10)" .
+  gdpr:article4-10 rdfs:label "Article 4(10)" .
   
-  gdpr:article4-11 rdfs:label "Article4(11)" .
+  gdpr:article4-11 rdfs:label "Article 4(11)" .
   
-  gdpr:article4-12 rdfs:label "Article4(12)" .
+  gdpr:article4-12 rdfs:label "Article 4(12)" .
   
-  gdpr:article4-13 rdfs:label "Article4(13)" .
+  gdpr:article4-13 rdfs:label "Article 4(13)" .
   
-  gdpr:article4-14 rdfs:label "Article4(14)" .
+  gdpr:article4-14 rdfs:label "Article 4(14)" .
   
-  gdpr:article4-15 rdfs:label "Article4(15)" .
+  gdpr:article4-15 rdfs:label "Article 4(15)" .
   
-  gdpr:article4-16 rdfs:label "Article4(16)" .
+  gdpr:article4-16 rdfs:label "Article 4(16)" .
   
-  gdpr:article4-16-a rdfs:label "Article4(16)(a)" .
+  gdpr:article4-16-a rdfs:label "Article 4(16)(a)" .
   
-  gdpr:article4-16-b rdfs:label "Article4(16)(b)" .
+  gdpr:article4-16-b rdfs:label "Article 4(16)(b)" .
   
-  gdpr:article4-17 rdfs:label "Article4(17)" .
+  gdpr:article4-17 rdfs:label "Article 4(17)" .
   
-  gdpr:article4-18 rdfs:label "Article4(18)" .
+  gdpr:article4-18 rdfs:label "Article 4(18)" .
   
-  gdpr:article4-19 rdfs:label "Article4(19)" .
+  gdpr:article4-19 rdfs:label "Article 4(19)" .
   
-  gdpr:article4-2 rdfs:label "Article4(2)" .
+  gdpr:article4-2 rdfs:label "Article 4(2)" .
   
-  gdpr:article4-20 rdfs:label "Article4(20)" .
+  gdpr:article4-20 rdfs:label "Article 4(20)" .
   
-  gdpr:article4-21 rdfs:label "Article4(21)" .
+  gdpr:article4-21 rdfs:label "Article 4(21)" .
   
-  gdpr:article4-22 rdfs:label "Article4(22)" .
+  gdpr:article4-22 rdfs:label "Article 4(22)" .
   
-  gdpr:article4-22-a rdfs:label "Article4(22)(a)" .
+  gdpr:article4-22-a rdfs:label "Article 4(22)(a)" .
   
-  gdpr:article4-22-b rdfs:label "Article4(22)(b)" .
+  gdpr:article4-22-b rdfs:label "Article 4(22)(b)" .
   
-  gdpr:article4-22-c rdfs:label "Article4(22)(c)" .
+  gdpr:article4-22-c rdfs:label "Article 4(22)(c)" .
   
-  gdpr:article4-23 rdfs:label "Article4(23)" .
+  gdpr:article4-23 rdfs:label "Article 4(23)" .
   
-  gdpr:article4-23-a rdfs:label "Article4(23)(a)" .
+  gdpr:article4-23-a rdfs:label "Article 4(23)(a)" .
   
-  gdpr:article4-23-b rdfs:label "Article4(23)(b)" .
+  gdpr:article4-23-b rdfs:label "Article 4(23)(b)" .
   
-  gdpr:article4-24 rdfs:label "Article4(24)" .
+  gdpr:article4-24 rdfs:label "Article 4(24)" .
   
-  gdpr:article4-25 rdfs:label "Article4(25)" .
+  gdpr:article4-25 rdfs:label "Article 4(25)" .
   
-  gdpr:article4-26 rdfs:label "Article4(26)" .
+  gdpr:article4-26 rdfs:label "Article 4(26)" .
   
-  gdpr:article4-3 rdfs:label "Article4(3)" .
+  gdpr:article4-3 rdfs:label "Article 4(3)" .
   
-  gdpr:article4-4 rdfs:label "Article4(4)" .
+  gdpr:article4-4 rdfs:label "Article 4(4)" .
   
-  gdpr:article4-5 rdfs:label "Article4(5)" .
+  gdpr:article4-5 rdfs:label "Article 4(5)" .
   
-  gdpr:article4-6 rdfs:label "Article4(6)" .
+  gdpr:article4-6 rdfs:label "Article 4(6)" .
   
-  gdpr:article4-7 rdfs:label "Article4(7)" .
+  gdpr:article4-7 rdfs:label "Article 4(7)" .
   
-  gdpr:article4-8 rdfs:label "Article4(8)" .
+  gdpr:article4-8 rdfs:label "Article 4(8)" .
   
-  gdpr:article4-9 rdfs:label "Article4(9)" .
+  gdpr:article4-9 rdfs:label "Article 4(9)" .
   
   gdpr:article40 rdfs:label "Article 40" .
   
-  gdpr:article40-1 rdfs:label "Article40(1)" .
+  gdpr:article40-1 rdfs:label "Article 40(1)" .
   
-  gdpr:article40-10 rdfs:label "Article40(10)" .
+  gdpr:article40-10 rdfs:label "Article 40(10)" .
   
-  gdpr:article40-11 rdfs:label "Article40(11)" .
+  gdpr:article40-11 rdfs:label "Article 40(11)" .
   
-  gdpr:article40-2 rdfs:label "Article40(2)" .
+  gdpr:article40-2 rdfs:label "Article 40(2)" .
   
-  gdpr:article40-2-a rdfs:label "Article40(2)(a)" .
+  gdpr:article40-2-a rdfs:label "Article 40(2)(a)" .
   
-  gdpr:article40-2-b rdfs:label "Article40(2)(b)" .
+  gdpr:article40-2-b rdfs:label "Article 40(2)(b)" .
   
-  gdpr:article40-2-c rdfs:label "Article40(2)(c)" .
+  gdpr:article40-2-c rdfs:label "Article 40(2)(c)" .
   
-  gdpr:article40-2-d rdfs:label "Article40(2)(d)" .
+  gdpr:article40-2-d rdfs:label "Article 40(2)(d)" .
   
-  gdpr:article40-2-e rdfs:label "Article40(2)(e)" .
+  gdpr:article40-2-e rdfs:label "Article 40(2)(e)" .
   
-  gdpr:article40-2-f rdfs:label "Article40(2)(f)" .
+  gdpr:article40-2-f rdfs:label "Article 40(2)(f)" .
   
-  gdpr:article40-2-g rdfs:label "Article40(2)(g)" .
+  gdpr:article40-2-g rdfs:label "Article 40(2)(g)" .
   
-  gdpr:article40-2-h rdfs:label "Article40(2)(h)" .
+  gdpr:article40-2-h rdfs:label "Article 40(2)(h)" .
   
-  gdpr:article40-2-i rdfs:label "Article40(2)(i)" .
+  gdpr:article40-2-i rdfs:label "Article 40(2)(i)" .
   
-  gdpr:article40-2-j rdfs:label "Article40(2)(j)" .
+  gdpr:article40-2-j rdfs:label "Article 40(2)(j)" .
   
-  gdpr:article40-2-k rdfs:label "Article40(2)(k)" .
+  gdpr:article40-2-k rdfs:label "Article 40(2)(k)" .
   
-  gdpr:article40-3 rdfs:label "Article40(3)" .
+  gdpr:article40-3 rdfs:label "Article 40(3)" .
   
-  gdpr:article40-4 rdfs:label "Article40(4)" .
+  gdpr:article40-4 rdfs:label "Article 40(4)" .
   
-  gdpr:article40-5 rdfs:label "Article40(5)" .
+  gdpr:article40-5 rdfs:label "Article 40(5)" .
   
-  gdpr:article40-6 rdfs:label "Article40(6)" .
+  gdpr:article40-6 rdfs:label "Article 40(6)" .
   
-  gdpr:article40-7 rdfs:label "Article40(7)" .
+  gdpr:article40-7 rdfs:label "Article 40(7)" .
   
-  gdpr:article40-8 rdfs:label "Article40(8)" .
+  gdpr:article40-8 rdfs:label "Article 40(8)" .
   
-  gdpr:article40-9 rdfs:label "Article40(9)" .
+  gdpr:article40-9 rdfs:label "Article 40(9)" .
   
   gdpr:article41 rdfs:label "Article 41" .
   
-  gdpr:article41-1 rdfs:label "Article41(1)" .
+  gdpr:article41-1 rdfs:label "Article 41(1)" .
   
-  gdpr:article41-2 rdfs:label "Article41(2)" .
+  gdpr:article41-2 rdfs:label "Article 41(2)" .
   
-  gdpr:article41-2-a rdfs:label "Article41(2)(a)" .
+  gdpr:article41-2-a rdfs:label "Article 41(2)(a)" .
   
-  gdpr:article41-2-b rdfs:label "Article41(2)(b)" .
+  gdpr:article41-2-b rdfs:label "Article 41(2)(b)" .
   
-  gdpr:article41-2-c rdfs:label "Article41(2)(c)" .
+  gdpr:article41-2-c rdfs:label "Article 41(2)(c)" .
   
-  gdpr:article41-2-d rdfs:label "Article41(2)(d)" .
+  gdpr:article41-2-d rdfs:label "Article 41(2)(d)" .
   
-  gdpr:article41-3 rdfs:label "Article41(3)" .
+  gdpr:article41-3 rdfs:label "Article 41(3)" .
   
-  gdpr:article41-4 rdfs:label "Article41(4)" .
+  gdpr:article41-4 rdfs:label "Article 41(4)" .
   
-  gdpr:article41-5 rdfs:label "Article41(5)" .
+  gdpr:article41-5 rdfs:label "Article 41(5)" .
   
-  gdpr:article41-6 rdfs:label "Article41(6)" .
+  gdpr:article41-6 rdfs:label "Article 41(6)" .
   
   gdpr:article42 rdfs:label "Article 42" .
   
-  gdpr:article42-1 rdfs:label "Article42(1)" .
+  gdpr:article42-1 rdfs:label "Article 42(1)" .
   
-  gdpr:article42-2 rdfs:label "Article42(2)" .
+  gdpr:article42-2 rdfs:label "Article 42(2)" .
   
-  gdpr:article42-3 rdfs:label "Article42(3)" .
+  gdpr:article42-3 rdfs:label "Article 42(3)" .
   
-  gdpr:article42-4 rdfs:label "Article42(4)" .
+  gdpr:article42-4 rdfs:label "Article 42(4)" .
   
-  gdpr:article42-5 rdfs:label "Article42(5)" .
+  gdpr:article42-5 rdfs:label "Article 42(5)" .
   
-  gdpr:article42-6 rdfs:label "Article42(6)" .
+  gdpr:article42-6 rdfs:label "Article 42(6)" .
   
-  gdpr:article42-7 rdfs:label "Article42(7)" .
+  gdpr:article42-7 rdfs:label "Article 42(7)" .
   
-  gdpr:article42-8 rdfs:label "Article42(8)" .
+  gdpr:article42-8 rdfs:label "Article 42(8)" .
   
   gdpr:article43 rdfs:label "Article 43" .
   
-  gdpr:article43-1 rdfs:label "Article43(1)" .
+  gdpr:article43-1 rdfs:label "Article 43(1)" .
   
-  gdpr:article43-1-a rdfs:label "Article43(1)(a)" .
+  gdpr:article43-1-a rdfs:label "Article 43(1)(a)" .
   
-  gdpr:article43-1-b rdfs:label "Article43(1)(b)" .
+  gdpr:article43-1-b rdfs:label "Article 43(1)(b)" .
   
-  gdpr:article43-2 rdfs:label "Article43(2)" .
+  gdpr:article43-2 rdfs:label "Article 43(2)" .
   
-  gdpr:article43-2-a rdfs:label "Article43(2)(a)" .
+  gdpr:article43-2-a rdfs:label "Article 43(2)(a)" .
   
-  gdpr:article43-2-b rdfs:label "Article43(2)(b)" .
+  gdpr:article43-2-b rdfs:label "Article 43(2)(b)" .
   
-  gdpr:article43-2-c rdfs:label "Article43(2)(c)" .
+  gdpr:article43-2-c rdfs:label "Article 43(2)(c)" .
   
-  gdpr:article43-2-d rdfs:label "Article43(2)(d)" .
+  gdpr:article43-2-d rdfs:label "Article 43(2)(d)" .
   
-  gdpr:article43-2-e rdfs:label "Article43(2)(e)" .
+  gdpr:article43-2-e rdfs:label "Article 43(2)(e)" .
   
-  gdpr:article43-3 rdfs:label "Article43(3)" .
+  gdpr:article43-3 rdfs:label "Article 43(3)" .
   
-  gdpr:article43-4 rdfs:label "Article43(4)" .
+  gdpr:article43-4 rdfs:label "Article 43(4)" .
   
-  gdpr:article43-5 rdfs:label "Article43(5)" .
+  gdpr:article43-5 rdfs:label "Article 43(5)" .
   
-  gdpr:article43-6 rdfs:label "Article43(6)" .
+  gdpr:article43-6 rdfs:label "Article 43(6)" .
   
-  gdpr:article43-7 rdfs:label "Article43(7)" .
+  gdpr:article43-7 rdfs:label "Article 43(7)" .
   
-  gdpr:article43-8 rdfs:label "Article43(8)" .
+  gdpr:article43-8 rdfs:label "Article 43(8)" .
   
-  gdpr:article43-9 rdfs:label "Article43(9)" .
+  gdpr:article43-9 rdfs:label "Article 43(9)" .
   
   gdpr:article44 rdfs:label "Article 44" .
   
-  gdpr:article44-1 rdfs:label "Article44(1)" .
+  gdpr:article44-1 rdfs:label "Article 44(1)" .
   
   gdpr:article45 rdfs:label "Article 45" .
   
-  gdpr:article45-1 rdfs:label "Article45(1)" .
+  gdpr:article45-1 rdfs:label "Article 45(1)" .
   
-  gdpr:article45-2 rdfs:label "Article45(2)" .
+  gdpr:article45-2 rdfs:label "Article 45(2)" .
   
-  gdpr:article45-2-a rdfs:label "Article45(2)(a)" .
+  gdpr:article45-2-a rdfs:label "Article 45(2)(a)" .
   
-  gdpr:article45-2-b rdfs:label "Article45(2)(b)" .
+  gdpr:article45-2-b rdfs:label "Article 45(2)(b)" .
   
-  gdpr:article45-2-c rdfs:label "Article45(2)(c)" .
+  gdpr:article45-2-c rdfs:label "Article 45(2)(c)" .
   
-  gdpr:article45-3 rdfs:label "Article45(3)" .
+  gdpr:article45-3 rdfs:label "Article 45(3)" .
   
-  gdpr:article45-4 rdfs:label "Article45(4)" .
+  gdpr:article45-4 rdfs:label "Article 45(4)" .
   
-  gdpr:article45-5 rdfs:label "Article45(5)" .
+  gdpr:article45-5 rdfs:label "Article 45(5)" .
   
-  gdpr:article45-6 rdfs:label "Article45(6)" .
+  gdpr:article45-6 rdfs:label "Article 45(6)" .
   
-  gdpr:article45-7 rdfs:label "Article45(7)" .
+  gdpr:article45-7 rdfs:label "Article 45(7)" .
   
-  gdpr:article45-8 rdfs:label "Article45(8)" .
+  gdpr:article45-8 rdfs:label "Article 45(8)" .
   
-  gdpr:article45-9 rdfs:label "Article45(9)" .
+  gdpr:article45-9 rdfs:label "Article 45(9)" .
   
   gdpr:article46 rdfs:label "Article 46" .
   
-  gdpr:article46-1 rdfs:label "Article46(1)" .
+  gdpr:article46-1 rdfs:label "Article 46(1)" .
   
-  gdpr:article46-2 rdfs:label "Article46(2)" .
+  gdpr:article46-2 rdfs:label "Article 46(2)" .
   
-  gdpr:article46-2-a rdfs:label "Article46(2)(a)" .
+  gdpr:article46-2-a rdfs:label "Article 46(2)(a)" .
   
-  gdpr:article46-2-b rdfs:label "Article46(2)(b)" .
+  gdpr:article46-2-b rdfs:label "Article 46(2)(b)" .
   
-  gdpr:article46-2-c rdfs:label "Article46(2)(c)" .
+  gdpr:article46-2-c rdfs:label "Article 46(2)(c)" .
   
-  gdpr:article46-2-d rdfs:label "Article46(2)(d)" .
+  gdpr:article46-2-d rdfs:label "Article 46(2)(d)" .
   
-  gdpr:article46-2-e rdfs:label "Article46(2)(e)" .
+  gdpr:article46-2-e rdfs:label "Article 46(2)(e)" .
   
-  gdpr:article46-2-f rdfs:label "Article46(2)(f)" .
+  gdpr:article46-2-f rdfs:label "Article 46(2)(f)" .
   
-  gdpr:article46-3 rdfs:label "Article46(3)" .
+  gdpr:article46-3 rdfs:label "Article 46(3)" .
   
-  gdpr:article46-3-a rdfs:label "Article46(3)(a)" .
+  gdpr:article46-3-a rdfs:label "Article 46(3)(a)" .
   
-  gdpr:article46-3-b rdfs:label "Article46(3)(b)" .
+  gdpr:article46-3-b rdfs:label "Article 46(3)(b)" .
   
-  gdpr:article46-4 rdfs:label "Article46(4)" .
+  gdpr:article46-4 rdfs:label "Article 46(4)" .
   
-  gdpr:article46-5 rdfs:label "Article46(5)" .
+  gdpr:article46-5 rdfs:label "Article 46(5)" .
   
   gdpr:article47 rdfs:label "Article 47" .
   
-  gdpr:article47-1 rdfs:label "Article47(1)" .
+  gdpr:article47-1 rdfs:label "Article 47(1)" .
   
-  gdpr:article47-1-a rdfs:label "Article47(1)(a)" .
+  gdpr:article47-1-a rdfs:label "Article 47(1)(a)" .
   
-  gdpr:article47-1-b rdfs:label "Article47(1)(b)" .
+  gdpr:article47-1-b rdfs:label "Article 47(1)(b)" .
   
-  gdpr:article47-1-c rdfs:label "Article47(1)(c)" .
+  gdpr:article47-1-c rdfs:label "Article 47(1)(c)" .
   
-  gdpr:article47-2 rdfs:label "Article47(2)" .
+  gdpr:article47-2 rdfs:label "Article 47(2)" .
   
-  gdpr:article47-2-a rdfs:label "Article47(2)(a)" .
+  gdpr:article47-2-a rdfs:label "Article 47(2)(a)" .
   
-  gdpr:article47-2-b rdfs:label "Article47(2)(b)" .
+  gdpr:article47-2-b rdfs:label "Article 47(2)(b)" .
   
-  gdpr:article47-2-c rdfs:label "Article47(2)(c)" .
+  gdpr:article47-2-c rdfs:label "Article 47(2)(c)" .
   
-  gdpr:article47-2-d rdfs:label "Article47(2)(d)" .
+  gdpr:article47-2-d rdfs:label "Article 47(2)(d)" .
   
-  gdpr:article47-2-e rdfs:label "Article47(2)(e)" .
+  gdpr:article47-2-e rdfs:label "Article 47(2)(e)" .
   
-  gdpr:article47-2-f rdfs:label "Article47(2)(f)" .
+  gdpr:article47-2-f rdfs:label "Article 47(2)(f)" .
   
-  gdpr:article47-2-g rdfs:label "Article47(2)(g)" .
+  gdpr:article47-2-g rdfs:label "Article 47(2)(g)" .
   
-  gdpr:article47-2-h rdfs:label "Article47(2)(h)" .
+  gdpr:article47-2-h rdfs:label "Article 47(2)(h)" .
   
-  gdpr:article47-2-i rdfs:label "Article47(2)(i)" .
+  gdpr:article47-2-i rdfs:label "Article 47(2)(i)" .
   
-  gdpr:article47-2-j rdfs:label "Article47(2)(j)" .
+  gdpr:article47-2-j rdfs:label "Article 47(2)(j)" .
   
-  gdpr:article47-2-k rdfs:label "Article47(2)(k)" .
+  gdpr:article47-2-k rdfs:label "Article 47(2)(k)" .
   
-  gdpr:article47-2-l rdfs:label "Article47(2)(l)" .
+  gdpr:article47-2-l rdfs:label "Article 47(2)(l)" .
   
-  gdpr:article47-2-m rdfs:label "Article47(2)(m)" .
+  gdpr:article47-2-m rdfs:label "Article 47(2)(m)" .
   
-  gdpr:article47-2-n rdfs:label "Article47(2)(n)" .
+  gdpr:article47-2-n rdfs:label "Article 47(2)(n)" .
   
-  gdpr:article47-3 rdfs:label "Article47(3)" .
+  gdpr:article47-3 rdfs:label "Article 47(3)" .
   
   gdpr:article48 rdfs:label "Article 48" .
   
-  gdpr:article48-1 rdfs:label "Article48(1)" .
+  gdpr:article48-1 rdfs:label "Article 48(1)" .
   
   gdpr:article49 rdfs:label "Article 49" .
   
-  gdpr:article49-1 rdfs:label "Article49(1)" .
+  gdpr:article49-1 rdfs:label "Article 49(1)" .
   
-  gdpr:article49-1-a rdfs:label "Article49(1)(a)" .
+  gdpr:article49-1-a rdfs:label "Article 49(1)(a)" .
   
-  gdpr:article49-1-b rdfs:label "Article49(1)(b)" .
+  gdpr:article49-1-b rdfs:label "Article 49(1)(b)" .
   
-  gdpr:article49-1-c rdfs:label "Article49(1)(c)" .
+  gdpr:article49-1-c rdfs:label "Article 49(1)(c)" .
   
-  gdpr:article49-1-d rdfs:label "Article49(1)(d)" .
+  gdpr:article49-1-d rdfs:label "Article 49(1)(d)" .
   
-  gdpr:article49-1-e rdfs:label "Article49(1)(e)" .
+  gdpr:article49-1-e rdfs:label "Article 49(1)(e)" .
   
-  gdpr:article49-1-f rdfs:label "Article49(1)(f)" .
+  gdpr:article49-1-f rdfs:label "Article 49(1)(f)" .
   
-  gdpr:article49-1-g rdfs:label "Article49(1)(g)" .
+  gdpr:article49-1-g rdfs:label "Article 49(1)(g)" .
   
-  gdpr:article49-2 rdfs:label "Article49(2)" .
+  gdpr:article49-2 rdfs:label "Article 49(2)" .
   
-  gdpr:article49-3 rdfs:label "Article49(3)" .
+  gdpr:article49-3 rdfs:label "Article 49(3)" .
   
-  gdpr:article49-4 rdfs:label "Article49(4)" .
+  gdpr:article49-4 rdfs:label "Article 49(4)" .
   
-  gdpr:article49-5 rdfs:label "Article49(5)" .
+  gdpr:article49-5 rdfs:label "Article 49(5)" .
   
-  gdpr:article49-6 rdfs:label "Article49(6)" .
+  gdpr:article49-6 rdfs:label "Article 49(6)" .
   
   gdpr:article5 rdfs:label "Article 5" .
   
-  gdpr:article5-1 rdfs:label "Article5(1)" .
+  gdpr:article5-1 rdfs:label "Article 5(1)" .
   
-  gdpr:article5-1-a rdfs:label "Article5(1)(a)" .
+  gdpr:article5-1-a rdfs:label "Article 5(1)(a)" .
   
-  gdpr:article5-1-b rdfs:label "Article5(1)(b)" .
+  gdpr:article5-1-b rdfs:label "Article 5(1)(b)" .
   
-  gdpr:article5-1-c rdfs:label "Article5(1)(c)" .
+  gdpr:article5-1-c rdfs:label "Article 5(1)(c)" .
   
-  gdpr:article5-1-d rdfs:label "Article5(1)(d)" .
+  gdpr:article5-1-d rdfs:label "Article 5(1)(d)" .
   
-  gdpr:article5-1-e rdfs:label "Article5(1)(e)" .
+  gdpr:article5-1-e rdfs:label "Article 5(1)(e)" .
   
-  gdpr:article5-1-f rdfs:label "Article5(1)(f)" .
+  gdpr:article5-1-f rdfs:label "Article 5(1)(f)" .
   
-  gdpr:article5-2 rdfs:label "Article5(2)" .
+  gdpr:article5-2 rdfs:label "Article 5(2)" .
   
   gdpr:article50 rdfs:label "Article 50" .
   
-  gdpr:article50-1 rdfs:label "Article50(1)" .
+  gdpr:article50-1 rdfs:label "Article 50(1)" .
   
-  gdpr:article50-1-a rdfs:label "Article50(1)(a)" .
+  gdpr:article50-1-a rdfs:label "Article 50(1)(a)" .
   
-  gdpr:article50-1-b rdfs:label "Article50(1)(b)" .
+  gdpr:article50-1-b rdfs:label "Article 50(1)(b)" .
   
-  gdpr:article50-1-c rdfs:label "Article50(1)(c)" .
+  gdpr:article50-1-c rdfs:label "Article 50(1)(c)" .
   
-  gdpr:article50-1-d rdfs:label "Article50(1)(d)" .
+  gdpr:article50-1-d rdfs:label "Article 50(1)(d)" .
   
   gdpr:article51 rdfs:label "Article 51" .
   
-  gdpr:article51-1 rdfs:label "Article51(1)" .
+  gdpr:article51-1 rdfs:label "Article 51(1)" .
   
-  gdpr:article51-2 rdfs:label "Article51(2)" .
+  gdpr:article51-2 rdfs:label "Article 51(2)" .
   
-  gdpr:article51-3 rdfs:label "Article51(3)" .
+  gdpr:article51-3 rdfs:label "Article 51(3)" .
   
-  gdpr:article51-4 rdfs:label "Article51(4)" .
+  gdpr:article51-4 rdfs:label "Article 51(4)" .
   
   gdpr:article52 rdfs:label "Article 52" .
   
-  gdpr:article52-1 rdfs:label "Article52(1)" .
+  gdpr:article52-1 rdfs:label "Article 52(1)" .
   
-  gdpr:article52-2 rdfs:label "Article52(2)" .
+  gdpr:article52-2 rdfs:label "Article 52(2)" .
   
-  gdpr:article52-3 rdfs:label "Article52(3)" .
+  gdpr:article52-3 rdfs:label "Article 52(3)" .
   
-  gdpr:article52-4 rdfs:label "Article52(4)" .
+  gdpr:article52-4 rdfs:label "Article 52(4)" .
   
-  gdpr:article52-5 rdfs:label "Article52(5)" .
+  gdpr:article52-5 rdfs:label "Article 52(5)" .
   
-  gdpr:article52-6 rdfs:label "Article52(6)" .
+  gdpr:article52-6 rdfs:label "Article 52(6)" .
   
   gdpr:article53 rdfs:label "Article 53" .
   
-  gdpr:article53-1 rdfs:label "Article53(1)" .
+  gdpr:article53-1 rdfs:label "Article 53(1)" .
   
-  gdpr:article53-1-1 rdfs:label "Article53(1)(1)" .
+  gdpr:article53-1-1 rdfs:label "Article 53(1)(1)" .
   
-  gdpr:article53-1-2 rdfs:label "Article53(1)(2)" .
+  gdpr:article53-1-2 rdfs:label "Article 53(1)(2)" .
   
-  gdpr:article53-1-3 rdfs:label "Article53(1)(3)" .
+  gdpr:article53-1-3 rdfs:label "Article 53(1)(3)" .
   
-  gdpr:article53-1-4 rdfs:label "Article53(1)(4)" .
+  gdpr:article53-1-4 rdfs:label "Article 53(1)(4)" .
   
-  gdpr:article53-2 rdfs:label "Article53(2)" .
+  gdpr:article53-2 rdfs:label "Article 53(2)" .
   
-  gdpr:article53-3 rdfs:label "Article53(3)" .
+  gdpr:article53-3 rdfs:label "Article 53(3)" .
   
-  gdpr:article53-4 rdfs:label "Article53(4)" .
+  gdpr:article53-4 rdfs:label "Article 53(4)" .
   
   gdpr:article54 rdfs:label "Article 54" .
   
-  gdpr:article54-1 rdfs:label "Article54(1)" .
+  gdpr:article54-1 rdfs:label "Article 54(1)" .
   
-  gdpr:article54-1-a rdfs:label "Article54(1)(a)" .
+  gdpr:article54-1-a rdfs:label "Article 54(1)(a)" .
   
-  gdpr:article54-1-b rdfs:label "Article54(1)(b)" .
+  gdpr:article54-1-b rdfs:label "Article 54(1)(b)" .
   
-  gdpr:article54-1-c rdfs:label "Article54(1)(c)" .
+  gdpr:article54-1-c rdfs:label "Article 54(1)(c)" .
   
-  gdpr:article54-1-d rdfs:label "Article54(1)(d)" .
+  gdpr:article54-1-d rdfs:label "Article 54(1)(d)" .
   
-  gdpr:article54-1-e rdfs:label "Article54(1)(e)" .
+  gdpr:article54-1-e rdfs:label "Article 54(1)(e)" .
   
-  gdpr:article54-1-f rdfs:label "Article54(1)(f)" .
+  gdpr:article54-1-f rdfs:label "Article 54(1)(f)" .
   
-  gdpr:article54-2 rdfs:label "Article54(2)" .
+  gdpr:article54-2 rdfs:label "Article 54(2)" .
   
   gdpr:article55 rdfs:label "Article 55" .
   
-  gdpr:article55-1 rdfs:label "Article55(1)" .
+  gdpr:article55-1 rdfs:label "Article 55(1)" .
   
-  gdpr:article55-2 rdfs:label "Article55(2)" .
+  gdpr:article55-2 rdfs:label "Article 55(2)" .
   
-  gdpr:article55-3 rdfs:label "Article55(3)" .
+  gdpr:article55-3 rdfs:label "Article 55(3)" .
   
   gdpr:article56 rdfs:label "Article 56" .
   
-  gdpr:article56-1 rdfs:label "Article56(1)" .
+  gdpr:article56-1 rdfs:label "Article 56(1)" .
   
-  gdpr:article56-2 rdfs:label "Article56(2)" .
+  gdpr:article56-2 rdfs:label "Article 56(2)" .
   
-  gdpr:article56-3 rdfs:label "Article56(3)" .
+  gdpr:article56-3 rdfs:label "Article 56(3)" .
   
-  gdpr:article56-4 rdfs:label "Article56(4)" .
+  gdpr:article56-4 rdfs:label "Article 56(4)" .
   
-  gdpr:article56-5 rdfs:label "Article56(5)" .
+  gdpr:article56-5 rdfs:label "Article 56(5)" .
   
-  gdpr:article56-6 rdfs:label "Article56(6)" .
+  gdpr:article56-6 rdfs:label "Article 56(6)" .
   
   gdpr:article57 rdfs:label "Article 57" .
   
-  gdpr:article57-1 rdfs:label "Article57(1)" .
+  gdpr:article57-1 rdfs:label "Article 57(1)" .
   
-  gdpr:article57-1-a rdfs:label "Article57(1)(a)" .
+  gdpr:article57-1-a rdfs:label "Article 57(1)(a)" .
   
-  gdpr:article57-1-b rdfs:label "Article57(1)(b)" .
+  gdpr:article57-1-b rdfs:label "Article 57(1)(b)" .
   
-  gdpr:article57-1-c rdfs:label "Article57(1)(c)" .
+  gdpr:article57-1-c rdfs:label "Article 57(1)(c)" .
   
-  gdpr:article57-1-d rdfs:label "Article57(1)(d)" .
+  gdpr:article57-1-d rdfs:label "Article 57(1)(d)" .
   
-  gdpr:article57-1-e rdfs:label "Article57(1)(e)" .
+  gdpr:article57-1-e rdfs:label "Article 57(1)(e)" .
   
-  gdpr:article57-1-f rdfs:label "Article57(1)(f)" .
+  gdpr:article57-1-f rdfs:label "Article 57(1)(f)" .
   
-  gdpr:article57-1-g rdfs:label "Article57(1)(g)" .
+  gdpr:article57-1-g rdfs:label "Article 57(1)(g)" .
   
-  gdpr:article57-1-h rdfs:label "Article57(1)(h)" .
+  gdpr:article57-1-h rdfs:label "Article 57(1)(h)" .
   
-  gdpr:article57-1-i rdfs:label "Article57(1)(i)" .
+  gdpr:article57-1-i rdfs:label "Article 57(1)(i)" .
   
-  gdpr:article57-1-j rdfs:label "Article57(1)(j)" .
+  gdpr:article57-1-j rdfs:label "Article 57(1)(j)" .
   
-  gdpr:article57-1-k rdfs:label "Article57(1)(k)" .
+  gdpr:article57-1-k rdfs:label "Article 57(1)(k)" .
   
-  gdpr:article57-1-l rdfs:label "Article57(1)(l)" .
+  gdpr:article57-1-l rdfs:label "Article 57(1)(l)" .
   
-  gdpr:article57-1-m rdfs:label "Article57(1)(m)" .
+  gdpr:article57-1-m rdfs:label "Article 57(1)(m)" .
   
-  gdpr:article57-1-n rdfs:label "Article57(1)(n)" .
+  gdpr:article57-1-n rdfs:label "Article 57(1)(n)" .
   
-  gdpr:article57-1-o rdfs:label "Article57(1)(o)" .
+  gdpr:article57-1-o rdfs:label "Article 57(1)(o)" .
   
-  gdpr:article57-1-p rdfs:label "Article57(1)(p)" .
+  gdpr:article57-1-p rdfs:label "Article 57(1)(p)" .
   
-  gdpr:article57-1-q rdfs:label "Article57(1)(q)" .
+  gdpr:article57-1-q rdfs:label "Article 57(1)(q)" .
   
-  gdpr:article57-1-r rdfs:label "Article57(1)(r)" .
+  gdpr:article57-1-r rdfs:label "Article 57(1)(r)" .
   
-  gdpr:article57-1-s rdfs:label "Article57(1)(s)" .
+  gdpr:article57-1-s rdfs:label "Article 57(1)(s)" .
   
-  gdpr:article57-1-t rdfs:label "Article57(1)(t)" .
+  gdpr:article57-1-t rdfs:label "Article 57(1)(t)" .
   
-  gdpr:article57-1-u rdfs:label "Article57(1)(u)" .
+  gdpr:article57-1-u rdfs:label "Article 57(1)(u)" .
   
-  gdpr:article57-1-v rdfs:label "Article57(1)(v)" .
+  gdpr:article57-1-v rdfs:label "Article 57(1)(v)" .
   
-  gdpr:article57-2 rdfs:label "Article57(2)" .
+  gdpr:article57-2 rdfs:label "Article 57(2)" .
   
-  gdpr:article57-3 rdfs:label "Article57(3)" .
+  gdpr:article57-3 rdfs:label "Article 57(3)" .
   
-  gdpr:article57-4 rdfs:label "Article57(4)" .
+  gdpr:article57-4 rdfs:label "Article 57(4)" .
   
   gdpr:article58 rdfs:label "Article 58" .
   
-  gdpr:article58-1 rdfs:label "Article58(1)" .
+  gdpr:article58-1 rdfs:label "Article 58(1)" .
   
-  gdpr:article58-1-a rdfs:label "Article58(1)(a)" .
+  gdpr:article58-1-a rdfs:label "Article 58(1)(a)" .
   
-  gdpr:article58-1-b rdfs:label "Article58(1)(b)" .
+  gdpr:article58-1-b rdfs:label "Article 58(1)(b)" .
   
-  gdpr:article58-1-c rdfs:label "Article58(1)(c)" .
+  gdpr:article58-1-c rdfs:label "Article 58(1)(c)" .
   
-  gdpr:article58-1-d rdfs:label "Article58(1)(d)" .
+  gdpr:article58-1-d rdfs:label "Article 58(1)(d)" .
   
-  gdpr:article58-1-e rdfs:label "Article58(1)(e)" .
+  gdpr:article58-1-e rdfs:label "Article 58(1)(e)" .
   
-  gdpr:article58-1-f rdfs:label "Article58(1)(f)" .
+  gdpr:article58-1-f rdfs:label "Article 58(1)(f)" .
   
-  gdpr:article58-2 rdfs:label "Article58(2)" .
+  gdpr:article58-2 rdfs:label "Article 58(2)" .
   
-  gdpr:article58-2-a rdfs:label "Article58(2)(a)" .
+  gdpr:article58-2-a rdfs:label "Article 58(2)(a)" .
   
-  gdpr:article58-2-b rdfs:label "Article58(2)(b)" .
+  gdpr:article58-2-b rdfs:label "Article 58(2)(b)" .
   
-  gdpr:article58-2-c rdfs:label "Article58(2)(c)" .
+  gdpr:article58-2-c rdfs:label "Article 58(2)(c)" .
   
-  gdpr:article58-2-d rdfs:label "Article58(2)(d)" .
+  gdpr:article58-2-d rdfs:label "Article 58(2)(d)" .
   
-  gdpr:article58-2-e rdfs:label "Article58(2)(e)" .
+  gdpr:article58-2-e rdfs:label "Article 58(2)(e)" .
   
-  gdpr:article58-2-f rdfs:label "Article58(2)(f)" .
+  gdpr:article58-2-f rdfs:label "Article 58(2)(f)" .
   
-  gdpr:article58-2-g rdfs:label "Article58(2)(g)" .
+  gdpr:article58-2-g rdfs:label "Article 58(2)(g)" .
   
-  gdpr:article58-2-h rdfs:label "Article58(2)(h)" .
+  gdpr:article58-2-h rdfs:label "Article 58(2)(h)" .
   
-  gdpr:article58-2-i rdfs:label "Article58(2)(i)" .
+  gdpr:article58-2-i rdfs:label "Article 58(2)(i)" .
   
-  gdpr:article58-2-j rdfs:label "Article58(2)(j)" .
+  gdpr:article58-2-j rdfs:label "Article 58(2)(j)" .
   
-  gdpr:article58-3 rdfs:label "Article58(3)" .
+  gdpr:article58-3 rdfs:label "Article 58(3)" .
   
-  gdpr:article58-3-a rdfs:label "Article58(3)(a)" .
+  gdpr:article58-3-a rdfs:label "Article 58(3)(a)" .
   
-  gdpr:article58-3-b rdfs:label "Article58(3)(b)" .
+  gdpr:article58-3-b rdfs:label "Article 58(3)(b)" .
   
-  gdpr:article58-3-c rdfs:label "Article58(3)(c)" .
+  gdpr:article58-3-c rdfs:label "Article 58(3)(c)" .
   
-  gdpr:article58-3-d rdfs:label "Article58(3)(d)" .
+  gdpr:article58-3-d rdfs:label "Article 58(3)(d)" .
   
-  gdpr:article58-3-e rdfs:label "Article58(3)(e)" .
+  gdpr:article58-3-e rdfs:label "Article 58(3)(e)" .
   
-  gdpr:article58-3-f rdfs:label "Article58(3)(f)" .
+  gdpr:article58-3-f rdfs:label "Article 58(3)(f)" .
   
-  gdpr:article58-3-g rdfs:label "Article58(3)(g)" .
+  gdpr:article58-3-g rdfs:label "Article 58(3)(g)" .
   
-  gdpr:article58-3-h rdfs:label "Article58(3)(h)" .
+  gdpr:article58-3-h rdfs:label "Article 58(3)(h)" .
   
-  gdpr:article58-3-i rdfs:label "Article58(3)(i)" .
+  gdpr:article58-3-i rdfs:label "Article 58(3)(i)" .
   
-  gdpr:article58-3-j rdfs:label "Article58(3)(j)" .
+  gdpr:article58-3-j rdfs:label "Article 58(3)(j)" .
   
-  gdpr:article58-4 rdfs:label "Article58(4)" .
+  gdpr:article58-4 rdfs:label "Article 58(4)" .
   
-  gdpr:article58-5 rdfs:label "Article58(5)" .
+  gdpr:article58-5 rdfs:label "Article 58(5)" .
   
-  gdpr:article58-6 rdfs:label "Article58(6)" .
+  gdpr:article58-6 rdfs:label "Article 58(6)" .
   
   gdpr:article59 rdfs:label "Article 59" .
   
-  gdpr:article59-1 rdfs:label "Article59(1)" .
+  gdpr:article59-1 rdfs:label "Article 59(1)" .
   
   gdpr:article6 rdfs:label "Article 6" .
   
-  gdpr:article6-1 rdfs:label "Article6(1)" .
+  gdpr:article6-1 rdfs:label "Article 6(1)" .
   
-  gdpr:article6-1-a rdfs:label "Article6(1)(a)" .
+  gdpr:article6-1-a rdfs:label "Article 6(1)(a)" .
   
-  gdpr:article6-1-b rdfs:label "Article6(1)(b)" .
+  gdpr:article6-1-b rdfs:label "Article 6(1)(b)" .
   
-  gdpr:article6-1-c rdfs:label "Article6(1)(c)" .
+  gdpr:article6-1-c rdfs:label "Article 6(1)(c)" .
   
-  gdpr:article6-1-d rdfs:label "Article6(1)(d)" .
+  gdpr:article6-1-d rdfs:label "Article 6(1)(d)" .
   
-  gdpr:article6-1-e rdfs:label "Article6(1)(e)" .
+  gdpr:article6-1-e rdfs:label "Article 6(1)(e)" .
   
-  gdpr:article6-1-f rdfs:label "Article6(1)(f)" .
+  gdpr:article6-1-f rdfs:label "Article 6(1)(f)" .
   
-  gdpr:article6-2 rdfs:label "Article6(2)" .
+  gdpr:article6-2 rdfs:label "Article 6(2)" .
   
-  gdpr:article6-3 rdfs:label "Article6(3)" .
+  gdpr:article6-3 rdfs:label "Article 6(3)" .
   
-  gdpr:article6-3-a rdfs:label "Article6(3)(a)" .
+  gdpr:article6-3-a rdfs:label "Article 6(3)(a)" .
   
-  gdpr:article6-3-b rdfs:label "Article6(3)(b)" .
+  gdpr:article6-3-b rdfs:label "Article 6(3)(b)" .
   
-  gdpr:article6-4 rdfs:label "Article6(4)" .
+  gdpr:article6-4 rdfs:label "Article 6(4)" .
   
-  gdpr:article6-4-a rdfs:label "Article6(4)(a)" .
+  gdpr:article6-4-a rdfs:label "Article 6(4)(a)" .
   
-  gdpr:article6-4-b rdfs:label "Article6(4)(b)" .
+  gdpr:article6-4-b rdfs:label "Article 6(4)(b)" .
   
-  gdpr:article6-4-c rdfs:label "Article6(4)(c)" .
+  gdpr:article6-4-c rdfs:label "Article 6(4)(c)" .
   
-  gdpr:article6-4-d rdfs:label "Article6(4)(d)" .
+  gdpr:article6-4-d rdfs:label "Article 6(4)(d)" .
   
-  gdpr:article6-4-e rdfs:label "Article6(4)(e)" .
+  gdpr:article6-4-e rdfs:label "Article 6(4)(e)" .
   
   gdpr:article60 rdfs:label "Article 60" .
   
-  gdpr:article60-1 rdfs:label "Article60(1)" .
+  gdpr:article60-1 rdfs:label "Article 60(1)" .
   
-  gdpr:article60-10 rdfs:label "Article60(10)" .
+  gdpr:article60-10 rdfs:label "Article 60(10)" .
   
-  gdpr:article60-11 rdfs:label "Article60(11)" .
+  gdpr:article60-11 rdfs:label "Article 60(11)" .
   
-  gdpr:article60-12 rdfs:label "Article60(12)" .
+  gdpr:article60-12 rdfs:label "Article 60(12)" .
   
-  gdpr:article60-2 rdfs:label "Article60(2)" .
+  gdpr:article60-2 rdfs:label "Article 60(2)" .
   
-  gdpr:article60-3 rdfs:label "Article60(3)" .
+  gdpr:article60-3 rdfs:label "Article 60(3)" .
   
-  gdpr:article60-4 rdfs:label "Article60(4)" .
+  gdpr:article60-4 rdfs:label "Article 60(4)" .
   
-  gdpr:article60-5 rdfs:label "Article60(5)" .
+  gdpr:article60-5 rdfs:label "Article 60(5)" .
   
-  gdpr:article60-6 rdfs:label "Article60(6)" .
+  gdpr:article60-6 rdfs:label "Article 60(6)" .
   
-  gdpr:article60-7 rdfs:label "Article60(7)" .
+  gdpr:article60-7 rdfs:label "Article 60(7)" .
   
-  gdpr:article60-8 rdfs:label "Article60(8)" .
+  gdpr:article60-8 rdfs:label "Article 60(8)" .
   
-  gdpr:article60-9 rdfs:label "Article60(9)" .
+  gdpr:article60-9 rdfs:label "Article 60(9)" .
   
   gdpr:article61 rdfs:label "Article 61" .
   
-  gdpr:article61-1 rdfs:label "Article61(1)" .
+  gdpr:article61-1 rdfs:label "Article 61(1)" .
   
-  gdpr:article61-2 rdfs:label "Article61(2)" .
+  gdpr:article61-2 rdfs:label "Article 61(2)" .
   
-  gdpr:article61-3 rdfs:label "Article61(3)" .
+  gdpr:article61-3 rdfs:label "Article 61(3)" .
   
-  gdpr:article61-4 rdfs:label "Article61(4)" .
+  gdpr:article61-4 rdfs:label "Article 61(4)" .
   
-  gdpr:article61-4-a rdfs:label "Article61(4)(a)" .
+  gdpr:article61-4-a rdfs:label "Article 61(4)(a)" .
   
-  gdpr:article61-4-b rdfs:label "Article61(4)(b)" .
+  gdpr:article61-4-b rdfs:label "Article 61(4)(b)" .
   
-  gdpr:article61-5 rdfs:label "Article61(5)" .
+  gdpr:article61-5 rdfs:label "Article 61(5)" .
   
-  gdpr:article61-6 rdfs:label "Article61(6)" .
+  gdpr:article61-6 rdfs:label "Article 61(6)" .
   
-  gdpr:article61-7 rdfs:label "Article61(7)" .
+  gdpr:article61-7 rdfs:label "Article 61(7)" .
   
-  gdpr:article61-8 rdfs:label "Article61(8)" .
+  gdpr:article61-8 rdfs:label "Article 61(8)" .
   
-  gdpr:article61-9 rdfs:label "Article61(9)" .
+  gdpr:article61-9 rdfs:label "Article 61(9)" .
   
   gdpr:article62 rdfs:label "Article 62" .
   
-  gdpr:article62-1 rdfs:label "Article62(1)" .
+  gdpr:article62-1 rdfs:label "Article 62(1)" .
   
-  gdpr:article62-2 rdfs:label "Article62(2)" .
+  gdpr:article62-2 rdfs:label "Article 62(2)" .
   
-  gdpr:article62-3 rdfs:label "Article62(3)" .
+  gdpr:article62-3 rdfs:label "Article 62(3)" .
   
-  gdpr:article62-4 rdfs:label "Article62(4)" .
+  gdpr:article62-4 rdfs:label "Article 62(4)" .
   
-  gdpr:article62-5 rdfs:label "Article62(5)" .
+  gdpr:article62-5 rdfs:label "Article 62(5)" .
   
-  gdpr:article62-6 rdfs:label "Article62(6)" .
+  gdpr:article62-6 rdfs:label "Article 62(6)" .
   
-  gdpr:article62-7 rdfs:label "Article62(7)" .
+  gdpr:article62-7 rdfs:label "Article 62(7)" .
   
   gdpr:article63 rdfs:label "Article 63" .
   
-  gdpr:article63-1 rdfs:label "Article63(1)" .
+  gdpr:article63-1 rdfs:label "Article 63(1)" .
   
   gdpr:article64 rdfs:label "Article 64" .
   
-  gdpr:article64-1 rdfs:label "Article64(1)" .
+  gdpr:article64-1 rdfs:label "Article 64(1)" .
   
-  gdpr:article64-1-a rdfs:label "Article64(1)(a)" .
+  gdpr:article64-1-a rdfs:label "Article 64(1)(a)" .
   
-  gdpr:article64-1-b rdfs:label "Article64(1)(b)" .
+  gdpr:article64-1-b rdfs:label "Article 64(1)(b)" .
   
-  gdpr:article64-1-c rdfs:label "Article64(1)(c)" .
+  gdpr:article64-1-c rdfs:label "Article 64(1)(c)" .
   
-  gdpr:article64-1-d rdfs:label "Article64(1)(d)" .
+  gdpr:article64-1-d rdfs:label "Article 64(1)(d)" .
   
-  gdpr:article64-1-e rdfs:label "Article64(1)(e)" .
+  gdpr:article64-1-e rdfs:label "Article 64(1)(e)" .
   
-  gdpr:article64-1-f rdfs:label "Article64(1)(f)" .
+  gdpr:article64-1-f rdfs:label "Article 64(1)(f)" .
   
-  gdpr:article64-2 rdfs:label "Article64(2)" .
+  gdpr:article64-2 rdfs:label "Article 64(2)" .
   
-  gdpr:article64-3 rdfs:label "Article64(3)" .
+  gdpr:article64-3 rdfs:label "Article 64(3)" .
   
-  gdpr:article64-4 rdfs:label "Article64(4)" .
+  gdpr:article64-4 rdfs:label "Article 64(4)" .
   
-  gdpr:article64-5 rdfs:label "Article64(5)" .
+  gdpr:article64-5 rdfs:label "Article 64(5)" .
   
-  gdpr:article64-5-a rdfs:label "Article64(5)(a)" .
+  gdpr:article64-5-a rdfs:label "Article 64(5)(a)" .
   
-  gdpr:article64-5-b rdfs:label "Article64(5)(b)" .
+  gdpr:article64-5-b rdfs:label "Article 64(5)(b)" .
   
-  gdpr:article64-6 rdfs:label "Article64(6)" .
+  gdpr:article64-6 rdfs:label "Article 64(6)" .
   
-  gdpr:article64-7 rdfs:label "Article64(7)" .
+  gdpr:article64-7 rdfs:label "Article 64(7)" .
   
-  gdpr:article64-8 rdfs:label "Article64(8)" .
+  gdpr:article64-8 rdfs:label "Article 64(8)" .
   
   gdpr:article65 rdfs:label "Article 65" .
   
-  gdpr:article65-1 rdfs:label "Article65(1)" .
+  gdpr:article65-1 rdfs:label "Article 65(1)" .
   
-  gdpr:article65-1-a rdfs:label "Article65(1)(a)" .
+  gdpr:article65-1-a rdfs:label "Article 65(1)(a)" .
   
-  gdpr:article65-1-b rdfs:label "Article65(1)(b)" .
+  gdpr:article65-1-b rdfs:label "Article 65(1)(b)" .
   
-  gdpr:article65-1-c rdfs:label "Article65(1)(c)" .
+  gdpr:article65-1-c rdfs:label "Article 65(1)(c)" .
   
-  gdpr:article65-2 rdfs:label "Article65(2)" .
+  gdpr:article65-2 rdfs:label "Article 65(2)" .
   
-  gdpr:article65-3 rdfs:label "Article65(3)" .
+  gdpr:article65-3 rdfs:label "Article 65(3)" .
   
-  gdpr:article65-4 rdfs:label "Article65(4)" .
+  gdpr:article65-4 rdfs:label "Article 65(4)" .
   
-  gdpr:article65-5 rdfs:label "Article65(5)" .
+  gdpr:article65-5 rdfs:label "Article 65(5)" .
   
-  gdpr:article65-6 rdfs:label "Article65(6)" .
+  gdpr:article65-6 rdfs:label "Article 65(6)" .
   
   gdpr:article66 rdfs:label "Article 66" .
   
-  gdpr:article66-1 rdfs:label "Article66(1)" .
+  gdpr:article66-1 rdfs:label "Article 66(1)" .
   
-  gdpr:article66-2 rdfs:label "Article66(2)" .
+  gdpr:article66-2 rdfs:label "Article 66(2)" .
   
-  gdpr:article66-3 rdfs:label "Article66(3)" .
+  gdpr:article66-3 rdfs:label "Article 66(3)" .
   
-  gdpr:article66-4 rdfs:label "Article66(4)" .
+  gdpr:article66-4 rdfs:label "Article 66(4)" .
   
   gdpr:article67 rdfs:label "Article 67" .
   
-  gdpr:article67-1 rdfs:label "Article67(1)" .
+  gdpr:article67-1 rdfs:label "Article 67(1)" .
   
-  gdpr:article67-2 rdfs:label "Article67(2)" .
+  gdpr:article67-2 rdfs:label "Article 67(2)" .
   
   gdpr:article68 rdfs:label "Article 68" .
   
-  gdpr:article68-1 rdfs:label "Article68(1)" .
+  gdpr:article68-1 rdfs:label "Article 68(1)" .
   
-  gdpr:article68-2 rdfs:label "Article68(2)" .
+  gdpr:article68-2 rdfs:label "Article 68(2)" .
   
-  gdpr:article68-3 rdfs:label "Article68(3)" .
+  gdpr:article68-3 rdfs:label "Article 68(3)" .
   
-  gdpr:article68-4 rdfs:label "Article68(4)" .
+  gdpr:article68-4 rdfs:label "Article 68(4)" .
   
-  gdpr:article68-5 rdfs:label "Article68(5)" .
+  gdpr:article68-5 rdfs:label "Article 68(5)" .
   
-  gdpr:article68-6 rdfs:label "Article68(6)" .
+  gdpr:article68-6 rdfs:label "Article 68(6)" .
   
   gdpr:article69 rdfs:label "Article 69" .
   
-  gdpr:article69-1 rdfs:label "Article69(1)" .
+  gdpr:article69-1 rdfs:label "Article 69(1)" .
   
-  gdpr:article69-2 rdfs:label "Article69(2)" .
+  gdpr:article69-2 rdfs:label "Article 69(2)" .
   
   gdpr:article7 rdfs:label "Article 7" .
   
-  gdpr:article7-1 rdfs:label "Article7(1)" .
+  gdpr:article7-1 rdfs:label "Article 7(1)" .
   
-  gdpr:article7-2 rdfs:label "Article7(2)" .
+  gdpr:article7-2 rdfs:label "Article 7(2)" .
   
-  gdpr:article7-3 rdfs:label "Article7(3)" .
+  gdpr:article7-3 rdfs:label "Article 7(3)" .
   
-  gdpr:article7-4 rdfs:label "Article7(4)" .
+  gdpr:article7-4 rdfs:label "Article 7(4)" .
   
   gdpr:article70 rdfs:label "Article 70" .
   
-  gdpr:article70-1 rdfs:label "Article70(1)" .
+  gdpr:article70-1 rdfs:label "Article 70(1)" .
   
-  gdpr:article70-1-a rdfs:label "Article70(1)(a)" .
+  gdpr:article70-1-a rdfs:label "Article 70(1)(a)" .
   
-  gdpr:article70-1-b rdfs:label "Article70(1)(b)" .
+  gdpr:article70-1-b rdfs:label "Article 70(1)(b)" .
   
-  gdpr:article70-1-c rdfs:label "Article70(1)(c)" .
+  gdpr:article70-1-c rdfs:label "Article 70(1)(c)" .
   
-  gdpr:article70-1-d rdfs:label "Article70(1)(d)" .
+  gdpr:article70-1-d rdfs:label "Article 70(1)(d)" .
   
-  gdpr:article70-1-e rdfs:label "Article70(1)(e)" .
+  gdpr:article70-1-e rdfs:label "Article 70(1)(e)" .
   
-  gdpr:article70-1-f rdfs:label "Article70(1)(f)" .
+  gdpr:article70-1-f rdfs:label "Article 70(1)(f)" .
   
-  gdpr:article70-1-g rdfs:label "Article70(1)(g)" .
+  gdpr:article70-1-g rdfs:label "Article 70(1)(g)" .
   
-  gdpr:article70-1-h rdfs:label "Article70(1)(h)" .
+  gdpr:article70-1-h rdfs:label "Article 70(1)(h)" .
   
-  gdpr:article70-1-i rdfs:label "Article70(1)(i)" .
+  gdpr:article70-1-i rdfs:label "Article 70(1)(i)" .
   
-  gdpr:article70-1-j rdfs:label "Article70(1)(j)" .
+  gdpr:article70-1-j rdfs:label "Article 70(1)(j)" .
   
-  gdpr:article70-1-k rdfs:label "Article70(1)(k)" .
+  gdpr:article70-1-k rdfs:label "Article 70(1)(k)" .
   
-  gdpr:article70-1-l rdfs:label "Article70(1)(l)" .
+  gdpr:article70-1-l rdfs:label "Article 70(1)(l)" .
   
-  gdpr:article70-1-m rdfs:label "Article70(1)(m)" .
+  gdpr:article70-1-m rdfs:label "Article 70(1)(m)" .
   
-  gdpr:article70-1-n rdfs:label "Article70(1)(n)" .
+  gdpr:article70-1-n rdfs:label "Article 70(1)(n)" .
   
-  gdpr:article70-1-o rdfs:label "Article70(1)(o)" .
+  gdpr:article70-1-o rdfs:label "Article 70(1)(o)" .
   
-  gdpr:article70-1-p rdfs:label "Article70(1)(p)" .
+  gdpr:article70-1-p rdfs:label "Article 70(1)(p)" .
   
-  gdpr:article70-1-q rdfs:label "Article70(1)(q)" .
+  gdpr:article70-1-q rdfs:label "Article 70(1)(q)" .
   
-  gdpr:article70-1-r rdfs:label "Article70(1)(r)" .
+  gdpr:article70-1-r rdfs:label "Article 70(1)(r)" .
   
-  gdpr:article70-1-s rdfs:label "Article70(1)(s)" .
+  gdpr:article70-1-s rdfs:label "Article 70(1)(s)" .
   
-  gdpr:article70-1-t rdfs:label "Article70(1)(t)" .
+  gdpr:article70-1-t rdfs:label "Article 70(1)(t)" .
   
-  gdpr:article70-1-u rdfs:label "Article70(1)(u)" .
+  gdpr:article70-1-u rdfs:label "Article 70(1)(u)" .
   
-  gdpr:article70-1-v rdfs:label "Article70(1)(v)" .
+  gdpr:article70-1-v rdfs:label "Article 70(1)(v)" .
   
-  gdpr:article70-1-w rdfs:label "Article70(1)(w)" .
+  gdpr:article70-1-w rdfs:label "Article 70(1)(w)" .
   
-  gdpr:article70-1-x rdfs:label "Article70(1)(x)" .
+  gdpr:article70-1-x rdfs:label "Article 70(1)(x)" .
   
-  gdpr:article70-1-y rdfs:label "Article70(1)(y)" .
+  gdpr:article70-1-y rdfs:label "Article 70(1)(y)" .
   
-  gdpr:article70-2 rdfs:label "Article70(2)" .
+  gdpr:article70-2 rdfs:label "Article 70(2)" .
   
-  gdpr:article70-3 rdfs:label "Article70(3)" .
+  gdpr:article70-3 rdfs:label "Article 70(3)" .
   
-  gdpr:article70-4 rdfs:label "Article70(4)" .
+  gdpr:article70-4 rdfs:label "Article 70(4)" .
   
   gdpr:article71 rdfs:label "Article 71" .
   
-  gdpr:article71-1 rdfs:label "Article71(1)" .
+  gdpr:article71-1 rdfs:label "Article 71(1)" .
   
-  gdpr:article71-2 rdfs:label "Article71(2)" .
+  gdpr:article71-2 rdfs:label "Article 71(2)" .
   
   gdpr:article72 rdfs:label "Article 72" .
   
-  gdpr:article72-1 rdfs:label "Article72(1)" .
+  gdpr:article72-1 rdfs:label "Article 72(1)" .
   
-  gdpr:article72-2 rdfs:label "Article72(2)" .
+  gdpr:article72-2 rdfs:label "Article 72(2)" .
   
   gdpr:article73 rdfs:label "Article 73" .
   
-  gdpr:article73-1 rdfs:label "Article73(1)" .
+  gdpr:article73-1 rdfs:label "Article 73(1)" .
   
-  gdpr:article73-2 rdfs:label "Article73(2)" .
+  gdpr:article73-2 rdfs:label "Article 73(2)" .
   
   gdpr:article74 rdfs:label "Article 74" .
   
-  gdpr:article74-1 rdfs:label "Article74(1)" .
+  gdpr:article74-1 rdfs:label "Article 74(1)" .
   
-  gdpr:article74-1-a rdfs:label "Article74(1)(a)" .
+  gdpr:article74-1-a rdfs:label "Article 74(1)(a)" .
   
-  gdpr:article74-1-b rdfs:label "Article74(1)(b)" .
+  gdpr:article74-1-b rdfs:label "Article 74(1)(b)" .
   
-  gdpr:article74-1-c rdfs:label "Article74(1)(c)" .
+  gdpr:article74-1-c rdfs:label "Article 74(1)(c)" .
   
-  gdpr:article74-2 rdfs:label "Article74(2)" .
+  gdpr:article74-2 rdfs:label "Article 74(2)" .
   
   gdpr:article75 rdfs:label "Article 75" .
   
-  gdpr:article75-1 rdfs:label "Article75(1)" .
+  gdpr:article75-1 rdfs:label "Article 75(1)" .
   
-  gdpr:article75-2 rdfs:label "Article75(2)" .
+  gdpr:article75-2 rdfs:label "Article 75(2)" .
   
-  gdpr:article75-3 rdfs:label "Article75(3)" .
+  gdpr:article75-3 rdfs:label "Article 75(3)" .
   
-  gdpr:article75-4 rdfs:label "Article75(4)" .
+  gdpr:article75-4 rdfs:label "Article 75(4)" .
   
-  gdpr:article75-5 rdfs:label "Article75(5)" .
+  gdpr:article75-5 rdfs:label "Article 75(5)" .
   
-  gdpr:article75-6 rdfs:label "Article75(6)" .
+  gdpr:article75-6 rdfs:label "Article 75(6)" .
   
-  gdpr:article75-6-a rdfs:label "Article75(6)(a)" .
+  gdpr:article75-6-a rdfs:label "Article 75(6)(a)" .
   
-  gdpr:article75-6-b rdfs:label "Article75(6)(b)" .
+  gdpr:article75-6-b rdfs:label "Article 75(6)(b)" .
   
-  gdpr:article75-6-c rdfs:label "Article75(6)(c)" .
+  gdpr:article75-6-c rdfs:label "Article 75(6)(c)" .
   
-  gdpr:article75-6-d rdfs:label "Article75(6)(d)" .
+  gdpr:article75-6-d rdfs:label "Article 75(6)(d)" .
   
-  gdpr:article75-6-e rdfs:label "Article75(6)(e)" .
+  gdpr:article75-6-e rdfs:label "Article 75(6)(e)" .
   
-  gdpr:article75-6-f rdfs:label "Article75(6)(f)" .
+  gdpr:article75-6-f rdfs:label "Article 75(6)(f)" .
   
-  gdpr:article75-6-g rdfs:label "Article75(6)(g)" .
+  gdpr:article75-6-g rdfs:label "Article 75(6)(g)" .
   
   gdpr:article76 rdfs:label "Article 76" .
   
-  gdpr:article76-1 rdfs:label "Article76(1)" .
+  gdpr:article76-1 rdfs:label "Article 76(1)" .
   
-  gdpr:article76-2 rdfs:label "Article76(2)" .
+  gdpr:article76-2 rdfs:label "Article 76(2)" .
   
   gdpr:article77 rdfs:label "Article 77" .
   
-  gdpr:article77-1 rdfs:label "Article77(1)" .
+  gdpr:article77-1 rdfs:label "Article 77(1)" .
   
-  gdpr:article77-2 rdfs:label "Article77(2)" .
+  gdpr:article77-2 rdfs:label "Article 77(2)" .
   
   gdpr:article78 rdfs:label "Article 78" .
   
-  gdpr:article78-1 rdfs:label "Article78(1)" .
+  gdpr:article78-1 rdfs:label "Article 78(1)" .
   
-  gdpr:article78-2 rdfs:label "Article78(2)" .
+  gdpr:article78-2 rdfs:label "Article 78(2)" .
   
-  gdpr:article78-3 rdfs:label "Article78(3)" .
+  gdpr:article78-3 rdfs:label "Article 78(3)" .
   
-  gdpr:article78-4 rdfs:label "Article78(4)" .
+  gdpr:article78-4 rdfs:label "Article 78(4)" .
   
   gdpr:article79 rdfs:label "Article 79" .
   
-  gdpr:article79-1 rdfs:label "Article79(1)" .
+  gdpr:article79-1 rdfs:label "Article 79(1)" .
   
-  gdpr:article79-2 rdfs:label "Article79(2)" .
+  gdpr:article79-2 rdfs:label "Article 79(2)" .
   
   gdpr:article8 rdfs:label "Article 8" .
   
-  gdpr:article8-1 rdfs:label "Article8(1)" .
+  gdpr:article8-1 rdfs:label "Article 8(1)" .
   
-  gdpr:article8-2 rdfs:label "Article8(2)" .
+  gdpr:article8-2 rdfs:label "Article 8(2)" .
   
-  gdpr:article8-3 rdfs:label "Article8(3)" .
+  gdpr:article8-3 rdfs:label "Article 8(3)" .
   
   gdpr:article80 rdfs:label "Article 80" .
   
-  gdpr:article80-1 rdfs:label "Article80(1)" .
+  gdpr:article80-1 rdfs:label "Article 80(1)" .
   
-  gdpr:article80-2 rdfs:label "Article80(2)" .
+  gdpr:article80-2 rdfs:label "Article 80(2)" .
   
   gdpr:article81 rdfs:label "Article 81" .
   
-  gdpr:article81-1 rdfs:label "Article81(1)" .
+  gdpr:article81-1 rdfs:label "Article 81(1)" .
   
-  gdpr:article81-2 rdfs:label "Article81(2)" .
+  gdpr:article81-2 rdfs:label "Article 81(2)" .
   
-  gdpr:article81-3 rdfs:label "Article81(3)" .
+  gdpr:article81-3 rdfs:label "Article 81(3)" .
   
   gdpr:article82 rdfs:label "Article 82" .
   
-  gdpr:article82-1 rdfs:label "Article82(1)" .
+  gdpr:article82-1 rdfs:label "Article 82(1)" .
   
-  gdpr:article82-2 rdfs:label "Article82(2)" .
+  gdpr:article82-2 rdfs:label "Article 82(2)" .
   
-  gdpr:article82-3 rdfs:label "Article82(3)" .
+  gdpr:article82-3 rdfs:label "Article 82(3)" .
   
-  gdpr:article82-4 rdfs:label "Article82(4)" .
+  gdpr:article82-4 rdfs:label "Article 82(4)" .
   
-  gdpr:article82-5 rdfs:label "Article82(5)" .
+  gdpr:article82-5 rdfs:label "Article 82(5)" .
   
-  gdpr:article82-6 rdfs:label "Article82(6)" .
+  gdpr:article82-6 rdfs:label "Article 82(6)" .
   
   gdpr:article83 rdfs:label "Article 83" .
   
-  gdpr:article83-1 rdfs:label "Article83(1)" .
+  gdpr:article83-1 rdfs:label "Article 83(1)" .
   
-  gdpr:article83-2 rdfs:label "Article83(2)" .
+  gdpr:article83-2 rdfs:label "Article 83(2)" .
   
-  gdpr:article83-2-a rdfs:label "Article83(2)(a)" .
+  gdpr:article83-2-a rdfs:label "Article 83(2)(a)" .
   
-  gdpr:article83-2-b rdfs:label "Article83(2)(b)" .
+  gdpr:article83-2-b rdfs:label "Article 83(2)(b)" .
   
-  gdpr:article83-2-c rdfs:label "Article83(2)(c)" .
+  gdpr:article83-2-c rdfs:label "Article 83(2)(c)" .
   
-  gdpr:article83-2-d rdfs:label "Article83(2)(d)" .
+  gdpr:article83-2-d rdfs:label "Article 83(2)(d)" .
   
-  gdpr:article83-2-e rdfs:label "Article83(2)(e)" .
+  gdpr:article83-2-e rdfs:label "Article 83(2)(e)" .
   
-  gdpr:article83-2-f rdfs:label "Article83(2)(f)" .
+  gdpr:article83-2-f rdfs:label "Article 83(2)(f)" .
   
-  gdpr:article83-2-g rdfs:label "Article83(2)(g)" .
+  gdpr:article83-2-g rdfs:label "Article 83(2)(g)" .
   
-  gdpr:article83-2-h rdfs:label "Article83(2)(h)" .
+  gdpr:article83-2-h rdfs:label "Article 83(2)(h)" .
   
-  gdpr:article83-2-i rdfs:label "Article83(2)(i)" .
+  gdpr:article83-2-i rdfs:label "Article 83(2)(i)" .
   
-  gdpr:article83-2-j rdfs:label "Article83(2)(j)" .
+  gdpr:article83-2-j rdfs:label "Article 83(2)(j)" .
   
-  gdpr:article83-2-k rdfs:label "Article83(2)(k)" .
+  gdpr:article83-2-k rdfs:label "Article 83(2)(k)" .
   
-  gdpr:article83-3 rdfs:label "Article83(3)" .
+  gdpr:article83-3 rdfs:label "Article 83(3)" .
   
-  gdpr:article83-4 rdfs:label "Article83(4)" .
+  gdpr:article83-4 rdfs:label "Article 83(4)" .
   
-  gdpr:article83-4-a rdfs:label "Article83(4)(a)" .
+  gdpr:article83-4-a rdfs:label "Article 83(4)(a)" .
   
-  gdpr:article83-4-b rdfs:label "Article83(4)(b)" .
+  gdpr:article83-4-b rdfs:label "Article 83(4)(b)" .
   
-  gdpr:article83-4-c rdfs:label "Article83(4)(c)" .
+  gdpr:article83-4-c rdfs:label "Article 83(4)(c)" .
   
-  gdpr:article83-5 rdfs:label "Article83(5)" .
+  gdpr:article83-5 rdfs:label "Article 83(5)" .
   
-  gdpr:article83-5-a rdfs:label "Article83(5)(a)" .
+  gdpr:article83-5-a rdfs:label "Article 83(5)(a)" .
   
-  gdpr:article83-5-b rdfs:label "Article83(5)(b)" .
+  gdpr:article83-5-b rdfs:label "Article 83(5)(b)" .
   
-  gdpr:article83-5-c rdfs:label "Article83(5)(c)" .
+  gdpr:article83-5-c rdfs:label "Article 83(5)(c)" .
   
-  gdpr:article83-5-d rdfs:label "Article83(5)(d)" .
+  gdpr:article83-5-d rdfs:label "Article 83(5)(d)" .
   
-  gdpr:article83-5-e rdfs:label "Article83(5)(e)" .
+  gdpr:article83-5-e rdfs:label "Article 83(5)(e)" .
   
-  gdpr:article83-6 rdfs:label "Article83(6)" .
+  gdpr:article83-6 rdfs:label "Article 83(6)" .
   
-  gdpr:article83-7 rdfs:label "Article83(7)" .
+  gdpr:article83-7 rdfs:label "Article 83(7)" .
   
-  gdpr:article83-8 rdfs:label "Article83(8)" .
+  gdpr:article83-8 rdfs:label "Article 83(8)" .
   
-  gdpr:article83-9 rdfs:label "Article83(9)" .
+  gdpr:article83-9 rdfs:label "Article 83(9)" .
   
   gdpr:article84 rdfs:label "Article 84" .
   
-  gdpr:article84-1 rdfs:label "Article84(1)" .
+  gdpr:article84-1 rdfs:label "Article 84(1)" .
   
-  gdpr:article84-2 rdfs:label "Article84(2)" .
+  gdpr:article84-2 rdfs:label "Article 84(2)" .
   
   gdpr:article85 rdfs:label "Article 85" .
   
-  gdpr:article85-1 rdfs:label "Article85(1)" .
+  gdpr:article85-1 rdfs:label "Article 85(1)" .
   
-  gdpr:article85-2 rdfs:label "Article85(2)" .
+  gdpr:article85-2 rdfs:label "Article 85(2)" .
   
-  gdpr:article85-3 rdfs:label "Article85(3)" .
+  gdpr:article85-3 rdfs:label "Article 85(3)" .
   
   gdpr:article86 rdfs:label "Article 86" .
   
-  gdpr:article86-1 rdfs:label "Article86(1)" .
+  gdpr:article86-1 rdfs:label "Article 86(1)" .
   
   gdpr:article87 rdfs:label "Article 87" .
   
-  gdpr:article87-1 rdfs:label "Article87(1)" .
+  gdpr:article87-1 rdfs:label "Article 87(1)" .
   
   gdpr:article88 rdfs:label "Article 88" .
   
-  gdpr:article88-1 rdfs:label "Article88(1)" .
+  gdpr:article88-1 rdfs:label "Article 88(1)" .
   
-  gdpr:article88-2 rdfs:label "Article88(2)" .
+  gdpr:article88-2 rdfs:label "Article 88(2)" .
   
-  gdpr:article88-3 rdfs:label "Article88(3)" .
+  gdpr:article88-3 rdfs:label "Article 88(3)" .
   
   gdpr:article89 rdfs:label "Article 89" .
   
-  gdpr:article89-1 rdfs:label "Article89(1)" .
+  gdpr:article89-1 rdfs:label "Article 89(1)" .
   
-  gdpr:article89-2 rdfs:label "Article89(2)" .
+  gdpr:article89-2 rdfs:label "Article 89(2)" .
   
-  gdpr:article89-3 rdfs:label "Article89(3)" .
+  gdpr:article89-3 rdfs:label "Article 89(3)" .
   
-  gdpr:article89-4 rdfs:label "Article89(4)" .
+  gdpr:article89-4 rdfs:label "Article 89(4)" .
   
   gdpr:article9 rdfs:label "Article 9" .
   
-  gdpr:article9-1 rdfs:label "Article9(1)" .
+  gdpr:article9-1 rdfs:label "Article 9(1)" .
   
-  gdpr:article9-2 rdfs:label "Article9(2)" .
+  gdpr:article9-2 rdfs:label "Article 9(2)" .
   
-  gdpr:article9-2-a rdfs:label "Article9(2)(a)" .
+  gdpr:article9-2-a rdfs:label "Article 9(2)(a)" .
   
-  gdpr:article9-2-b rdfs:label "Article9(2)(b)" .
+  gdpr:article9-2-b rdfs:label "Article 9(2)(b)" .
   
-  gdpr:article9-2-c rdfs:label "Article9(2)(c)" .
+  gdpr:article9-2-c rdfs:label "Article 9(2)(c)" .
   
-  gdpr:article9-2-d rdfs:label "Article9(2)(d)" .
+  gdpr:article9-2-d rdfs:label "Article 9(2)(d)" .
   
-  gdpr:article9-2-e rdfs:label "Article9(2)(e)" .
+  gdpr:article9-2-e rdfs:label "Article 9(2)(e)" .
   
-  gdpr:article9-2-f rdfs:label "Article9(2)(f)" .
+  gdpr:article9-2-f rdfs:label "Article 9(2)(f)" .
   
-  gdpr:article9-2-g rdfs:label "Article9(2)(g)" .
+  gdpr:article9-2-g rdfs:label "Article 9(2)(g)" .
   
-  gdpr:article9-2-h rdfs:label "Article9(2)(h)" .
+  gdpr:article9-2-h rdfs:label "Article 9(2)(h)" .
   
-  gdpr:article9-2-i rdfs:label "Article9(2)(i)" .
+  gdpr:article9-2-i rdfs:label "Article 9(2)(i)" .
   
-  gdpr:article9-2-j rdfs:label "Article9(2)(j)" .
+  gdpr:article9-2-j rdfs:label "Article 9(2)(j)" .
   
-  gdpr:article9-3 rdfs:label "Article9(3)" .
+  gdpr:article9-3 rdfs:label "Article 9(3)" .
   
-  gdpr:article9-4 rdfs:label "Article9(4)" .
+  gdpr:article9-4 rdfs:label "Article 9(4)" .
   
   gdpr:article90 rdfs:label "Article 90" .
   
-  gdpr:article90-1 rdfs:label "Article90(1)" .
+  gdpr:article90-1 rdfs:label "Article 90(1)" .
   
-  gdpr:article90-2 rdfs:label "Article90(2)" .
+  gdpr:article90-2 rdfs:label "Article 90(2)" .
   
   gdpr:article91 rdfs:label "Article 91" .
   
-  gdpr:article91-1 rdfs:label "Article91(1)" .
+  gdpr:article91-1 rdfs:label "Article 91(1)" .
   
-  gdpr:article91-2 rdfs:label "Article91(2)" .
+  gdpr:article91-2 rdfs:label "Article 91(2)" .
   
   gdpr:article92 rdfs:label "Article 92" .
   
-  gdpr:article92-1 rdfs:label "Article92(1)" .
+  gdpr:article92-1 rdfs:label "Article 92(1)" .
   
-  gdpr:article92-2 rdfs:label "Article92(2)" .
+  gdpr:article92-2 rdfs:label "Article 92(2)" .
   
-  gdpr:article92-3 rdfs:label "Article92(3)" .
+  gdpr:article92-3 rdfs:label "Article 92(3)" .
   
-  gdpr:article92-4 rdfs:label "Article92(4)" .
+  gdpr:article92-4 rdfs:label "Article 92(4)" .
   
-  gdpr:article92-5 rdfs:label "Article92(5)" .
+  gdpr:article92-5 rdfs:label "Article 92(5)" .
   
   gdpr:article93 rdfs:label "Article 93" .
   
-  gdpr:article93-1 rdfs:label "Article93(1)" .
+  gdpr:article93-1 rdfs:label "Article 93(1)" .
   
-  gdpr:article93-2 rdfs:label "Article93(2)" .
+  gdpr:article93-2 rdfs:label "Article 93(2)" .
   
-  gdpr:article93-3 rdfs:label "Article93(3)" .
+  gdpr:article93-3 rdfs:label "Article 93(3)" .
   
   gdpr:article94 rdfs:label "Article 94" .
   
-  gdpr:article94-1 rdfs:label "Article94(1)" .
+  gdpr:article94-1 rdfs:label "Article 94(1)" .
   
-  gdpr:article94-2 rdfs:label "Article94(2)" .
+  gdpr:article94-2 rdfs:label "Article 94(2)" .
   
   gdpr:article95 rdfs:label "Article 95" .
   
-  gdpr:article95-1 rdfs:label "Article95(1)" .
+  gdpr:article95-1 rdfs:label "Article 95(1)" .
   
   gdpr:article96 rdfs:label "Article 96" .
   
-  gdpr:article96-1 rdfs:label "Article96(1)" .
+  gdpr:article96-1 rdfs:label "Article 96(1)" .
   
   gdpr:article97 rdfs:label "Article 97" .
   
-  gdpr:article97-1 rdfs:label "Article97(1)" .
+  gdpr:article97-1 rdfs:label "Article 97(1)" .
   
-  gdpr:article97-2 rdfs:label "Article97(2)" .
+  gdpr:article97-2 rdfs:label "Article 97(2)" .
   
-  gdpr:article97-2-a rdfs:label "Article97(2)(a)" .
+  gdpr:article97-2-a rdfs:label "Article 97(2)(a)" .
   
-  gdpr:article97-2-b rdfs:label "Article97(2)(b)" .
+  gdpr:article97-2-b rdfs:label "Article 97(2)(b)" .
   
-  gdpr:article97-3 rdfs:label "Article97(3)" .
+  gdpr:article97-3 rdfs:label "Article 97(3)" .
   
-  gdpr:article97-4 rdfs:label "Article97(4)" .
+  gdpr:article97-4 rdfs:label "Article 97(4)" .
   
-  gdpr:article97-5 rdfs:label "Article97(5)" .
+  gdpr:article97-5 rdfs:label "Article 97(5)" .
   
   gdpr:article98 rdfs:label "Article 98" .
   
-  gdpr:article98-1 rdfs:label "Article98(1)" .
+  gdpr:article98-1 rdfs:label "Article 98(1)" .
   
   gdpr:article99 rdfs:label "Article 99" .
   
-  gdpr:article99-1 rdfs:label "Article99(1)" .
+  gdpr:article99-1 rdfs:label "Article 99(1)" .
   
-  gdpr:article99-2 rdfs:label "Article99(2)" .
+  gdpr:article99-2 rdfs:label "Article 99(2)" .
   
   gdpr:chapterI rdfs:label "Chapter I" .
   
@@ -1777,27 +1777,27 @@ sub:assertion {
   
   gdpr:chapterIII rdfs:label "Chapter III" .
   
-  gdpr:chapterIII-1 rdfs:label "Section 1" .
+  gdpr:chapterIII-1 rdfs:label "Chapter III, Section 1" .
   
-  gdpr:chapterIII-2 rdfs:label "Section 2" .
+  gdpr:chapterIII-2 rdfs:label "Chapter III, Section 2" .
   
-  gdpr:chapterIII-3 rdfs:label "Section 3" .
+  gdpr:chapterIII-3 rdfs:label "Chapter III, Section 3" .
   
-  gdpr:chapterIII-4 rdfs:label "Section 4" .
+  gdpr:chapterIII-4 rdfs:label "Chapter III, Section 4" .
   
-  gdpr:chapterIII-5 rdfs:label "Section 5" .
+  gdpr:chapterIII-5 rdfs:label "Chapter III, Section 5" .
   
   gdpr:chapterIV rdfs:label "Chapter IV" .
   
-  gdpr:chapterIV-1 rdfs:label "Section 1" .
+  gdpr:chapterIV-1 rdfs:label "Chapter IV, Section 1" .
   
-  gdpr:chapterIV-2 rdfs:label "Section 2" .
+  gdpr:chapterIV-2 rdfs:label "Chapter IV, Section 2" .
   
-  gdpr:chapterIV-3 rdfs:label "Section 3" .
+  gdpr:chapterIV-3 rdfs:label "Chapter IV, Section 3" .
   
-  gdpr:chapterIV-4 rdfs:label "Section 4" .
+  gdpr:chapterIV-4 rdfs:label "Chapter IV, Section 4" .
   
-  gdpr:chapterIV-5 rdfs:label "Section 5" .
+  gdpr:chapterIV-5 rdfs:label "Chapter IV, Section 5" .
   
   gdpr:chapterIX rdfs:label "Chapter IX" .
   
@@ -1805,17 +1805,17 @@ sub:assertion {
   
   gdpr:chapterVI rdfs:label "Chapter VI" .
   
-  gdpr:chapterVI-1 rdfs:label "Section 1" .
+  gdpr:chapterVI-1 rdfs:label "Chapter VI, Section 1" .
   
-  gdpr:chapterVI-2 rdfs:label "Section 2" .
+  gdpr:chapterVI-2 rdfs:label "Chapter VI, Section 2" .
   
   gdpr:chapterVII rdfs:label "Chapter VII" .
   
-  gdpr:chapterVII-1 rdfs:label "Section 1" .
+  gdpr:chapterVII-1 rdfs:label "Chapter VII, Section 1" .
   
-  gdpr:chapterVII-2 rdfs:label "Section 2" .
+  gdpr:chapterVII-2 rdfs:label "Chapter VII, Section 2" .
   
-  gdpr:chapterVII-3 rdfs:label "Section 3" .
+  gdpr:chapterVII-3 rdfs:label "Chapter VII, Section 3" .
   
   gdpr:chapterVIII rdfs:label "Chapter VIII" .
   
@@ -1832,10 +1832,11 @@ sub:provenance {
 sub:pubinfo {
   sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
-    npx:hasSignature "oeu8dgWxcPdydLlzVactQacfMgV7T8/c+riA73IHOkTgyEIk8bt3zrUiEpzbyBm5Z63M+Wdbj0BT074zC5yEFRCT27YyHPJT19Y1VHI4OUjE+doZhcUnEuVx0dNZp9wGcMu1V3UH+T+BolzoRQgdEYyUw5vrDakVWZiFHSpymEU=";
+    npx:hasSignature "iNJmT7a5JBB2jkzWRetiwnlDec7qNVJQuyNV5aPXGghqpWmtmQPFx6dvbp2Udrw1vZRUo6nRsEmUmLI3xcBDLlGJGJd71WxeIyqTU3bR3dceaHW+O5Pr8XbsRYnRIqhME/pDD6nLejwJrMVX+kqVbaYtIN7TfXHvdZZq2wfzQNc=";
     npx:hasSignatureTarget this: .
   
-  this: dct:created "2020-05-12T11:54:17.590+02:00"^^xsd:dateTime;
+  this: dct:created "2020-05-12T20:46:42.936+02:00"^^xsd:dateTime;
     dct:creator orcid:0000-0002-1267-0234;
-    dct:license <https://creativecommons.org/licenses/by/4.0/> .
+    dct:license <https://creativecommons.org/licenses/by/4.0/>;
+    npx:supersedes <http://purl.org/np/RAJGUpLZK5MVr3lYXL12JXuuQnf-1NZncLipq7AD5Io7k> .
 }

@@ -7,6 +7,7 @@
 @prefix np: <http://www.nanopub.org/nschema#> .
 @prefix orcid: <https://orcid.org/> .
 @prefix gdpr: <http://purl.org/adaptcentre/resources/GDPRtEXT#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
 
 :Head {
 	: np:hasAssertion :assertion ;
@@ -25,7 +26,8 @@
 }
 
 :pubinfo {
-	: dct:created "2020-05-12T11:54:17.590+02:00"^^xsd:dateTime ;
+	: dct:created "2020-05-12T20:46:42.936+02:00"^^xsd:dateTime ;
 		dct:creator orcid:0000-0002-1267-0234 ;
-		dct:license <https://creativecommons.org/licenses/by/4.0/> .
+		dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+		npx:supersedes <http://purl.org/np/RAJGUpLZK5MVr3lYXL12JXuuQnf-1NZncLipq7AD5Io7k> .
 }
