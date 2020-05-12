@@ -6,5 +6,4 @@ LPRED='<http://www.w3.org/2000/01/rdf-schema#label>'
 rapper -i turtle -o ntriples data/gdpr.ttl \
   | grep " $TPRED " \
   | sed "s| $TPRED | $LPRED |" \
-  | less
-#  > gdpr-labels.nt
+  > gdpr-labels.nt
