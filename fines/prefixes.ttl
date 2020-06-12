@@ -1,0 +1,1 @@
+@prefix gdpr: <http://purl.org/adaptcentre/resources/GDPRtEXT#> .
