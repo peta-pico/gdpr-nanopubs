@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-np op build -c http://c1.nl -c http://c2.nl -d http://d.nl prefixes.ttl -o nanopubs.trig GDPRfines_clean_mod.jsonld
+np op build -c https://orcid.org/0000-0001-6882-6480 -c http://orcid.org/0000-0002-1267-0234 -d https://www.enforcementtracker.com/ prefixes.ttl -o nanopubs.trig data/GDPRfines_clean_mod.jsonld
 np mktrusty nanopubs.trig
 np check trusty.nanopubs.trig

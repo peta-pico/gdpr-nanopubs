@@ -5,22 +5,23 @@
             "@type": "@id"
         },
         "contains": {
-            "@id": "http://example.com/contains",
+            "@id": "dct:hasPart",
             "@type": "@id"
         },
         "authority": "http://example.com/authority",
         "controller": "http://example.com/controller",
-        "date": "http://example.com/date",
-        "fine": "http://example.com/fine/",
+        "date": "dct:created",
+        "fine": "https://www.enforcementtracker.com/#fine/",
         "gdpr": "http://purl.org/adaptcentre/resources/GDPRtEXT#article",
+        "dct": "http://purl.org/dc/terms/",
         "id": "http://example.com/id/",
         "name": "http://example.com/name",
         "picture": "http://example.com/picture",
         "price": "http://example.com/price",
-        "source": "http://example.com/source",
-        "summary": "http://example.com/summary"
+        "source": "dct:source",
+        "summary": "dct:description"
     },
-    "@id": "data",
+    "@id": "fine:data",
     "contains": [
         {
             "articleViolated": [
