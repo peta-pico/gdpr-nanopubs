@@ -27,7 +27,6 @@ with open("data/GDPRfines.json") as json_file:
             # print(f['articleViolated'])
 
     context = {}
-    context['id'] = "http://example.com/id/"
     context['fine'] = "http://example.com/fines/"
     context['authority'] = "http://example.com/authority"
     context['controller'] = "http://example.com/controller"

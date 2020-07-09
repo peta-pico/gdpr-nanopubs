@@ -15,7 +15,6 @@
             "@type": "@id"
         },
         "gdpr": "http://purl.org/adaptcentre/resources/GDPRtEXT#article",
-        "id": "http://example.com/id/",
         "name": {
             "@id": "http://example.com/country",
             "@type": "@id"
