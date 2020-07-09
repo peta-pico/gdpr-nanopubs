@@ -3,10 +3,12 @@ import re
 
 with open("data/GDPRfines.json") as json_file:
     data = json.load(json_file)
-    data['@id'] = 'data'
+    data['@id'] = 'fine:data'
     for f in data['fines']:
         # print("Article violated: " + f['articleViolated'])
-        f['id'] = 'fine:'+str(f['id'])
+        f['@id'] = 'fine:'+str(f['id'])
+        del f['id']
+        del f['picture']
         articles = re.finditer('Art. (.+?) GDPR', f['articleViolated'])
         if articles:
             f['articleViolated'] = []
@@ -17,7 +19,7 @@ with open("data/GDPRfines.json") as json_file:
                     f['articleViolated'].append("gdpr:"+replacement)
                 else:
                     f['articleViolated'].append("gdpr:"+a.group(1))
-            print(f['articleViolated'])
+            # print(f['articleViolated'])
 
     context = {}
     context['id'] = "http://example.com/id/"
@@ -28,9 +30,14 @@ with open("data/GDPRfines.json") as json_file:
     context['name'] = "http://example.com/name"
     context['picture'] = "http://example.com/picture"
     context['price'] = "http://example.com/price"
-    context['source'] = "http://example.com/source"
-    context['summary'] = "http://example.com/summary"
+    context['source'] = "dct:source"
+    context['summary'] = "dct:description"
     context['gdpr'] = "http://purl.org/adaptcentre/resources/GDPRtEXT#article"
+    context['dct'] = "http://purl.org/dc/terms/"
+    fines = {}
+    fines['@id'] = "dct:hasPart"
+    fines['@type'] = "@id"
+    context['fines'] = fines
     articlesViolated = {}
     articlesViolated['@id'] = "http://example.com/articleViolated"
     articlesViolated['@type'] = "@id"
